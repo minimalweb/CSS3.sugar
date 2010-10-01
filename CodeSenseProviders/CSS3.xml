@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Providers map contexts in a document to possible completions. The actual completions are defined in the various CodeSense libraries, categorized using their key. A CodeSense Provider tells Espresso what CodeSense libraries are active in the current context. One of these XML files can contain many <provider> elements.
+
+-->
+<codesense>
+
+	<!-- CSS property values -->
+	<provider>
+		<selector>css > property-name:capture(name) + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name:capture(name) + property-value > punctuation.terminator</selector>
+		<completions>de.minimalweb.css3.property.${name}</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+	
+	<!-- URL values -->
+	<provider>
+		<selector>css > property-name[text='background'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='background-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background-image'] + property-value > punctuation.terminator, css > property-name[text='border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='border-image'] + property-value > punctuation.terminator, css > property-name[text='-moz-border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='-moz-border-image'] + property-value > punctuation.terminator, css > property-name[text='-webkit-border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='-webkit-border-image'] + property-value > punctuation.terminator</selector>
+		<completions>de.minimalweb.css3.property.url-values</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+	
+	<!-- Color values -->
+	<provider>
+		<selector>css > property-name[text='color'] + property-value - punctuation.separator, css > property-name[text='color'] + property-value > punctuation.terminator, css > property-name[text='background-color'] + property-value - punctuation.separator, css > property-name[text='background-color'] + property-value > punctuation.terminator, css > property-name[text='background'] + property-value - punctuation.separator, css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='border'] + property-value - punctuation.separator, css > property-name[text='border'] + property-value > punctuation.terminator, css > property-name[text='border-color'] + property-value - punctuation.separator, css > property-name[text='border-color'] + property-value > punctuation.terminator</selector>
+		<completions>de.minimalweb.css3.property.color-values</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+	
+	<!-- Clipping values -->
+	<provider>
+		<selector>css > property-name[text='background-clip'] + property-value - punctuation.separator, css > property-name[text='background-clip'] + property-value > punctuation.terminator, css > property-name[text='-moz-background-clip'] + property-value - punctuation.separator, css > property-name[text='-moz-background-clip'] + property-value > punctuation.terminator, css > property-name[text='-webkit-background-clip'] + property-value - punctuation.separator, css > property-name[text='-webkit-background-clip'] + property-value > punctuation.terminator, css > property-name[text='background-origin'] + property-value - punctuation.separator, css > property-name[text='background-origin'] + property-value > punctuation.terminator</selector>
+		<completions>de.minimalweb.css3.property.clipping-values</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+	
+	<!-- CSS properties -->
+	<provider>
+		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
+		<completions>de.minimalweb.css3.properties</completions>
+		<complete-match>[a-zA-Z0-9-]+</complete-match>
+	</provider>
+	
+	<!-- CSS pseudos -->
+	<provider>
+		<selector>css</selector>
+		<completions>de.minimalweb.css3.classes.pseudo</completions>
+		<completions>de.minimalweb.css3.elements.pseudo</completions>
+		<complete-match>(:)[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>(,|.|#|\s|{|^)</require-suffix>
+	</provider>
+	
+	<!-- @rules -->
+	<provider>
+		<selector>css</selector>
+		<completions>de.minimalweb.css3.at-rules</completions>
+		<complete-match>(@){1}([a-zA-Z0-9-]*)</complete-match>
+		<require-suffix>(^)</require-suffix>
+	</provider>
+
+	<!-- CSS properties that should be reluctantly suggested because they're browser specific -->
+	<provider>
+		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
+		<completions>de.minimalweb.css3.browser-specific-properties</completions>
+		<complete-match capture="2">(^|;|{)\s*([a-zA-Z0-9-]+)</complete-match>
+		<require-suffix>(:|\s|}|^)</require-suffix>
+	</provider>
+	
+</codesense>

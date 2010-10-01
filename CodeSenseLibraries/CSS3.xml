@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<behavior>
+		<append-dynamic>
+			<matched-suffix>\s*(;)?</matched-suffix>
+			<transform-into>$0(?1::;)</transform-into>
+		</append-dynamic>
+		<confirm characters=";" />
+		<partial-confirm characters="-" />
+	</behavior>
+	
+	<set name="de.minimalweb.css3.property.clipping-values">
+	  <completion string="border-box" />
+	  <completion string="padding-box" />
+	  <completion string="content-box" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.background">
+		<completion string="linear-gradient">
+		  <behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:bg-position angle}, ${2:color-stop}, ${3:color-stop})$4)</transform-into>
+				</append-dynamic>
+				<partial-confirm characters="-" />
+		  </behavior>
+		</completion>
+		<completion string="radial-gradient" />
+		<completion string="-moz-linear-gradient">
+		  <behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:bg-position angle}, ${2:color-stop}, ${3:color-stop})$4)</transform-into>
+				</append-dynamic>
+				<partial-confirm characters="-" />
+		  </behavior>
+		</completion>
+		<completion string="-moz-radial-gradient" />
+		<completion string="-webkit-gradient">
+		  <behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:type}, ${2:bg-position angle}, from(${3:color}), to(${4:color})${5:color-stop(${6:position}, ${7:color})})$8)</transform-into>
+				</append-dynamic>
+				<partial-confirm characters="-" />
+		  </behavior>
+		</completion>
+	</set>
+	
+	<set name="de.minimalweb.css3.property.background-attachment">
+	  <completion string="local" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.background-repeat">
+	  <completion string="space" />
+	  <completion string="round" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.border-image-slice">
+		<completion string="fill" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.border-image-source">
+		<completion string="none" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.border-image-width">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.border-image-outset">
+		<completion string="stretch" />
+		<completion string="repeat" />
+		<completion string="round" />
+		<completion string="space" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.box-shadow">
+		<completion string="none" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.column-rule">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-column-rule">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-column-rule">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.column-rule-style">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-column-rule-style">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-column-rule-style">
+		<completion string="none" />
+		<completion string="hidden" />
+		<completion string="dotted" />
+		<completion string="dashed" />
+		<completion string="solid" />
+		<completion string="double" />
+		<completion string="groove" />
+		<completion string="ridge" />
+		<completion string="inset" />
+		<completion string="outset" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.column-rule-width">
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-column-rule-width">
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-column-rule-width">
+		<completion string="thin" />
+		<completion string="medium" />
+		<completion string="thick" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.properties">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::: $0;)</transform-into>
+			</append-dynamic>
+			<confirm characters=":" />
+			<partial-confirm characters="-" />
+		</behavior>
+		<completion string="animation" />
+		<completion string="animation-delay" />
+		<completion string="animation-direction" />
+		<completion string="animation-duration" />
+		<completion string="animation-iteration-count" />
+		<completion string="animation-name" />
+		<completion string="animation-play-state" />
+		<completion string="animation-timing-function" />
+		<completion string="background-origin" />
+		<completion string="background-clip" />
+		<completion string="background-size" />
+		<completion string="border-image" />
+		<completion string="border-image-outset" />
+		<completion string="border-image-repeat" />
+		<completion string="border-image-slice" />
+		<completion string="border-image-source" />
+		<completion string="border-image-width" />
+		<completion string="border-radius" />
+		<completion string="border-top-right-radius" />
+		<completion string="border-bottom-right-radius" />
+		<completion string="border-bottom-left-radius" />
+		<completion string="border-top-left-radius" />
+		<completion string="box-shadow" />
+		<completion string="box-sizing" />
+		<completion string="column-count" />
+		<completion string="column-gap" />
+		<completion string="column-rule" />
+		<completion string="column-span" />
+		<completion string="column-width" />
+		<completion string="text-shadow" />
+	</set>
+		
+	<set name="de.minimalweb.css3.browser-specific-properties">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::: $0;)</transform-into>
+			</append-dynamic>
+			<confirm characters=":" />
+			<partial-confirm characters="-" />
+		</behavior>
+		
+		<!-- Webkit -->
+		<completion string="-webkit-animation" />
+		<completion string="-webkit-animation-direction" />
+		<completion string="-webkit-animation-duration" />
+		<completion string="-webkit-animation-iteration-count" />
+		<completion string="-webkit-animation-name" />
+		<completion string="-webkit-animation-timing-function" />
+		<completion string="-webkit-background-clip" />
+		<completion string="-webkit-border-image" />
+		<completion string="-webkit-border-radius" />
+		<completion string="-webkit-border-top-left-radius" />
+		<completion string="-webkit-border-top-right-radius" />
+		<completion string="-webkit-border-bottom-left-radius" />
+		<completion string="-webkit-border-bottom-right-radius" />
+		<completion string="-webkit-box-shadow" />
+		<completion string="-webkit-box-sizing" />
+		<completion string="-webkit-column-count" />
+		<completion string="-webkit-column-gap" />
+		<completion string="-webkit-column-rule" />
+		<completion string="-webkit-column-span" />
+		<completion string="-webkit-column-width" />
+		<completion string="-webkit-mask-image" />
+		<completion string="-webkit-transform" />
+		<completion string="-webkit-transform-origin" />
+		<completion string="-webkit-transition" />
+		<completion string="-webkit-transition-property" />
+		<completion string="-webkit-transition-duration" />
+		<completion string="-webkit-transition-timing-function" />
+		<completion string="-webkit-user-drag" />
+		<completion string="-webkit-user-modify" />
+		<completion string="-webkit-user-select" />
+		
+		<!-- Gecko -->
+		<completion string="-moz-background-clip" />
+		<completion string="-moz-border-radius" />
+		<completion string="-moz-border-radius-topleft" />
+		<completion string="-moz-border-radius-topright" />
+		<completion string="-moz-border-radius-bottomleft" />
+		<completion string="-moz-border-radius-bottomright" />
+		<completion string="-moz-box-shadow" />
+		<completion string="-moz-box-sizing" />
+		<completion string="-moz-column-count" />
+		<completion string="-moz-column-gap" />
+		<completion string="-moz-column-rule" />
+		<completion string="-moz-column-span" />
+		<completion string="-moz-column-width" />
+		<completion string="-moz-transform" />
+		<completion string="-moz-transform-origin" />
+		<completion string="-moz-user-modify" />
+		<completion string="-moz-user-select" />
+		
+		<!-- Opera -->
+		<completion string="-o-transform" />
+		<completion string="-o-transform-origin" />
+		<completion string="-o-transition" />
+		<completion string="-o-transition-delay" />
+		<completion string="-o-transition-duration" />
+		<completion string="-o-transition-property" />
+		<completion string="-o-transition-timing-function" />
+		
+		<!-- Internet Explorer -->
+		<completion string="-ms-box-sizing" />
+	</set>
+	
+	<set name="de.minimalweb.css3.at-rules">
+  	<behavior>
+			<partial-confirm characters="-" />
+		</behavior>
+		<completion string="@charset" />
+		<completion string="@font-face" />
+		<completion string="@import" />
+		<completion string="@media" />
+		<completion string="@namespace" />
+		<completion string="@page" />
+		<completion string="@phonetic-alphabet" />
+	</set>
+	
+	<set name="de.minimalweb.css3.classes.pseudo">
+  	<behavior>
+			<partial-confirm characters="-" />
+		</behavior>
+		<completion string=":active" />
+		<completion string=":after" />
+		<completion string=":before" />
+		<completion string=":checked" />
+		<completion string=":disabled" />
+		<completion string=":enabled" />
+		<completion string=":empty" />
+		<completion string=":first-child" />
+		<completion string=":first-line" />
+		<completion string=":first-letter" />
+		<completion string=":first-of-type" />
+		<completion string=":focus" />
+		<completion string=":hover" />
+		<completion string=":indeterminate" />
+		<completion string=":last-child" />
+		<completion string=":last-of-type" />
+		<completion string=":link" />
+		<completion string=":not">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string=":nth-child">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string=":nth-last-child">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string=":nth-of-type">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string=":nth-last-of-type">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string=":only-child" />
+		<completion string=":only-of-type" />
+		<completion string=":root" />
+		<completion string=":target" />
+		<completion string=":visited" />
+	</set>
+	
+	<set name="de.minimalweb.css3.elements.pseudo">
+		<behavior>
+			<partial-confirm characters="-" />
+		</behavior>
+		<completion string="::first-line" />
+		<completion string="::first-letter" />
+		<completion string="::before" />
+		<completion string="::after" />
+	</set>
+</codesense>

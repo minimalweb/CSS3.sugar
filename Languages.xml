@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<meta>
+		<name>CSS3.sugar</name>
+		<description>CSS3 properties</description>
+		<author>Maurice Kühlborn</author>
+		<identifier>de.minimalweb.Sugar.CSS3</identifier>
+		<version status="release">0.1</version>
+		<download format="git">git://github.com/minimalweb/CSS3.sugar.git</download>
+	</meta>
+</settings>
