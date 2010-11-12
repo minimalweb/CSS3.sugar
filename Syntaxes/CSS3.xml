@@ -99,10 +99,10 @@
 			<subzones>
 				<include collection="comments"/>
     		<zone name="id.selector.css">
-    			<expression>(#[-_a-zA-Z@]*)</expression>
+    			<expression>(#[-_a-zA-Z0-9@]*)</expression>
     		</zone>
     		<zone name="class.selector.css">
-    			<expression>(\.[-_a-zA-Z@]*)</expression>
+    			<expression>(\.[-_a-zA-Z0-9@]*)</expression>
     		</zone>
     		<zone name="pseudo.class.selector.css">
     			<expression>(:{1,2}[-_a-zA-Z@]*)</expression>
