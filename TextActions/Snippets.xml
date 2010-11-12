@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<snippet id="de.minimalweb.TextActions.CSS3.CSSDOCHeader" category="tools.Snippets">
+		<title>Header CSS Comment</title>
+		<text><![CDATA[/* --------------------------------------------
+
+${1:file.css}
+
+Project:     $2
+Version:     $3
+Author:      $4
+URL:         $5
+Copyright:   $6
+License:     $7
+	
+----------------------------------------------- */]]></text>
+		<text-trigger>head</text-trigger>
+		<syntax-context>css</syntax-context>
+	</snippet>
+	
+	<snippet id="de.minimalweb.TextActions.CSS3.AtGroupComment" category="tools.Snippets">
+		<title>@group CSS Comment</title>
+		<text><![CDATA[/* @group $1
+----------------------------------------------- */
+
+${EDITOR_SELECTION:$2}
+
+/* @end */]]></text>
+		<text-trigger>group</text-trigger>
+		<syntax-context>css</syntax-context>
+	</snippet>
+	
+</action-recipes>
