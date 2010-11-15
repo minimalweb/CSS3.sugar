@@ -236,6 +236,19 @@
 		<completion string="column-width" />
 		<completion string="text-shadow" />
 	</set>
+	
+	<set name="de.minimalweb.css3.property.url-values">
+		<completion string="url">
+		  <behavior>
+				<append-dynamic>
+					<matched-suffix>(\s*:)|[^:]</matched-suffix>
+					<transform-into>(?1::(${1:../images/})$2)</transform-into>
+				</append-dynamic>
+		  </behavior>
+		</completion>
+	</set>
+	
+	<!-- Browser-Specific Properties -->
 		
 	<set name="de.minimalweb.css3.browser-specific-properties">
 		<behavior>
@@ -309,6 +322,7 @@
 		
 		<!-- Internet Explorer -->
 		<completion string="-ms-box-sizing" />
+		<completion string="-ms-interpolation-mode" />
 	</set>
 	
 	<set name="de.minimalweb.css3.at-rules">
