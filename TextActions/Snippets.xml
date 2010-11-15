@@ -9,7 +9,7 @@ ${1:file.css}
 
 Project:     $2
 Version:     $3
-Author:      $4
+Author:       $4
 URL:         $5
 Copyright:   $6
 License:     $7
