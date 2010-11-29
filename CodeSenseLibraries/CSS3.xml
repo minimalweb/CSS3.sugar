@@ -196,6 +196,46 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.margin">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.margin-top">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.margin-right">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.margin-bottom">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.margin-left">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.padding">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.padding-top">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.padding-right">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.padding-bottom">
+		<completion string="auto" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.padding-left">
+		<completion string="auto" />
+	</set>
+	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -282,6 +322,7 @@
 		<completion string="-webkit-column-span" />
 		<completion string="-webkit-column-width" />
 		<completion string="-webkit-mask-image" />
+		<completion string="-webkit-tap-highlight-color" />
 		<completion string="-webkit-transform" />
 		<completion string="-webkit-transform-origin" />
 		<completion string="-webkit-transition" />
@@ -399,5 +440,7 @@
 		<completion string="::first-letter" />
 		<completion string="::before" />
 		<completion string="::after" />
+		<completion string="::selection" />
+		<completion string="::-moz-selection" />
 	</set>
 </codesense>
