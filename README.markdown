@@ -3,6 +3,8 @@ CSS3 Sugar
 
 This sugar adds autocompletion for native and browser specific CSS3 properties as well as an overall enhanced CSS support.
 
+This branch merges @dstorey’s previous CSS3/SVG sugar with minimalweb’s CSS3.sugar
+
 
 CSS3 Features
 =============
