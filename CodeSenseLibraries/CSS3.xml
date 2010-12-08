@@ -226,6 +226,25 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.overflow-x">
+		<completion string="visible" />
+		<completion string="hidden" />
+		<completion string="scroll" />
+		<completion string="auto" />
+		<completion string="no-display" />
+		<completion string="no-content" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.overflow-y">
+		<completion string="visible" />
+		<completion string="hidden" />
+		<completion string="scroll" />
+		<completion string="auto" />
+		<completion string="no-display" />
+		<completion string="no-content" />
+	</set>
+
+	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -265,6 +284,8 @@
 		<completion string="column-rule" />
 		<completion string="column-span" />
 		<completion string="column-width" />
+		<completion string="overflow-x" />
+		<completion string="overflow-y" />
 		<completion string="text-shadow" />
 	</set>
 	
