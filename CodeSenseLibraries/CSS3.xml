@@ -359,6 +359,325 @@
 		
 	</set>
 	
+	<!-- SVG specific values -->
+	
+	<set name="de.minimalweb.css3.property.alignment-baseline">
+		<completion string="auto" />
+		<completion string="baseline" />
+		<completion string="before-edge" />
+		<completion string="text-before-edge" />
+		<completion string="middle" />
+		<completion string="central" />
+		<completion string="after-edge" />
+		<completion string="text-after-edge" />
+		<completion string="ideographic" />
+		<completion string="alphabetic" />
+		<completion string="hanging" />
+		<completion string="mathematical" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.audio-level">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.baseline-shift">
+		<completion string="baseline" />
+		<completion string="sub" />
+		<completion string="super" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.buffered-rendering">
+		<completion string="auto" />
+		<completion string="dynamic" />
+		<completion string="static" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.clip">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.clip-path">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.clip-rule">
+		<completion string="nonzero" />
+		<completion string="evenodd" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.color-interpolation">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="linearRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.color-interpolation-filters">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="linearRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.color-profile">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.color-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="optimizeQuality" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="de.minimalweb.css3.property.display-align">
+		<completion string="auto" />
+		<completion string="before" />
+		<completion string="center" />
+		<completion string="after" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.dominant-baseline">
+		<completion string="auto" />
+		<completion string="use-script" />
+		<completion string="no-change" />
+		<completion string="reset-size" />
+		<completion string="ideographic" />
+		<completion string="alphabetic" />
+		<completion string="hanging" />
+		<completion string="mathematical" />
+		<completion string="central" />
+		<completion string="middle" />
+		<completion string="text-after-edge" />
+		<completion string="text-before-edge" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.enable-background">
+		<completion string="accumulate" />
+		<completion string="new" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.fill">
+		<!--completion string="@color" /-->
+		<completion string="inherit" />
+	</set>	
+	
+	<set name="de.minimalweb.css3.property.fill-opacity">
+		<completion string="inherit" />
+	</set>	
+	
+	<set name="de.minimalweb.css3.property.fill-rule">
+		<completion string="nonzero" />
+		<completion string="evenodd" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.filter">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.flood-color">
+		<!--completion string="@color" /-->
+		<completion string="currentColor" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.flood-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.glyph-orientation-vertical">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.glyph-orientation-horizontal">
+		<completion string="inherit" />
+	</set>
+
+    <set name="de.minimalweb.css3.property.image-rendering">
+	 	<completion string="auto" />
+	 	<completion string="optimizeSpeed" />
+	 	<completion string="optimizeQuality" />
+	 	<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.kerning">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.lighting-color">
+		<!--completion string="@color" /-->
+		<completion string="currentColor" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.line-increment">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="de.minimalweb.css3.property.marker">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+		<set name="de.minimalweb.css3.property.marker-end">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.marker-mid">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.marker-offset">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.marker-start">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="de.minimalweb.css3.property.mask">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.pointer-events">
+		<completion string="visiblePainted" />
+		<completion string="visibleFill" />
+		<completion string="visibleStroke" />
+		<completion string="visible" />
+		<completion string="painted" />
+		<completion string="fill" />
+		<completion string="stroke" />
+		<completion string="all" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.shape-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="crispEdges" />
+		<completion string="geometricPrecision" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.solid-color">
+		<!--completion string="@color" /-->
+		<completion string="none" />
+		<completion string="currentColor" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.solid-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stop-color">
+		<!--completion string="@color" /-->
+		<completion string="currentColor" />
+		<completion string="inherit" />
+	</set>
+	<set name="de.minimalweb.css3.property.stop-opacity">
+		<completion string="inherit" />
+	</set>
+	<set name="de.minimalweb.css3.property.stroke">
+		<completion string="inherit" />
+	</set>
+	<set name="de.minimalweb.css3.property.stroke-dasharray">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-dashoffset">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-linecap">
+		<completion string="butt" />
+		<completion string="round" />
+		<completion string="square" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-linejoin">
+		<completion string="miter" />
+		<completion string="round" />
+		<completion string="bevel" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-miterlimit">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.stroke-width">
+		<completion string="inherit" />
+	</set>
+
+	<set name="de.minimalweb.css3.property.text-anchor">
+		<completion string="start" />
+		<completion string="middle" />
+		<completion string="end" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.text-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="optimizeLegibility" />
+		<completion string="geometricPrecision" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.vector-effect">
+		<completion string="non-scaling-stroke" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.viewport-fill">
+		<!--completion string="@color" /-->
+		<completion string="none" />
+		<completion string="currentColor" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.viewport-fill-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.writing-mode">
+		<completion string="lr-tb" />
+		<completion string="rl-tb" />
+		<completion string="tb-rl" />
+		<completion string="lr" />
+		<completion string="rl" />
+		<completion string="tb" />
+		<completion string="inherit" />
+	</set>	
+
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -410,6 +729,67 @@
 		<completion string="text-overflow" />
 		<completion string="text-shadow" />
 		<completion string="word-wrap" />
+		
+		<!--SVG-Specific Properties -->
+
+		<completion string="alignment-baseline" />
+		<completion string="audio-level" />
+		<completion string="baseline-shift" />
+		<completion string="buffered-rendering" />
+		<completion string="clip" />
+		<completion string="clip-path" />
+		<completion string="clip-rule" />
+		<completion string="color-interpolation" />
+		<completion string="color-interpolation-filters" />
+		<completion string="color-profile" />
+		<completion string="color-rendering" />
+		<completion string="display-align" />
+		<completion string="dominant-baseline" />
+		<completion string="enable-background" />
+		<completion string="fill" />
+		<completion string="fill-opacity" />
+		<completion string="fill-rule" />
+		<completion string="filter" />
+		<completion string="flood-color" />
+		<completion string="flood-opacity" />
+		<completion string="glyph-orientation-horizontal" />
+		<completion string="glyph-orientation-vertical" />
+		<completion string="image-rendering" />
+		<completion string="kerning" />
+		<completion string="lighting-color" />
+		<completion string="line-increment" />
+		<completion string="marker" />
+		<completion string="marker-end" />
+		<completion string="marker-mid" />
+		<completion string="marker-offset" />
+		<completion string="marker-start" />
+		<completion string="mask" />
+		<completion string="pointer-events" />
+		<completion string="shape-rendering" />
+		<completion string="solid-color" />
+		<completion string="solid-opacity" />
+		<completion string="stop-color" />
+		<completion string="stop-opacity" />
+		<completion string="stroke" />
+		<completion string="stroke-dasharray" />
+		<completion string="stroke-dashoffset" />
+		<completion string="stroke-linecap" />
+		<completion string="stroke-linejoin" />
+		<completion string="stroke-miterlimit" />
+		<completion string="stroke-opacity" />
+		<completion string="stroke-width" />
+		<completion string="text-anchor" />
+		<completion string="text-rendering" />
+		<completion string="vector-effect" />
+		<completion string="viewport-fill" />
+		<completion string="viewport-fill-opacity" />
+		<completion string="writing-mode" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.vector-effect">
+		<completion string="non-scaling-stroke" />
+		<completion string="none" />
+		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.url-values">
