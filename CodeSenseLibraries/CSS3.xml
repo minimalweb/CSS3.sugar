@@ -360,7 +360,7 @@
 	
 	<!-- SVG specific values -->
 	
-	<set name="com.opera.svgcss.property.alignment-baseline">
+	<set name="com.opera.css3.svg-property.alignment-baseline">
 		<completion string="auto" />
 		<completion string="baseline" />
 		<completion string="before-edge" />
@@ -376,67 +376,67 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.audio-level">
+	<set name="com.opera.css3.svg-property.audio-level">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.baseline-shift">
+	<set name="com.opera.css3.svg-property.baseline-shift">
 		<completion string="baseline" />
 		<completion string="sub" />
 		<completion string="super" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.buffered-rendering">
+	<set name="com.opera.css3.svg-property.buffered-rendering">
 		<completion string="auto" />
 		<completion string="dynamic" />
 		<completion string="static" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.clip">
+	<set name="com.opera.css3.svg-property.clip">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.clip-path">
+	<set name="com.opera.css3.svg-property.clip-path">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.clip-rule">
+	<set name="com.opera.css3.svg-property.clip-rule">
 		<completion string="nonzero" />
 		<completion string="evenodd" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.color-interpolation">
+	<set name="com.opera.css3.svg-property.color-interpolation">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="linearRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.color-interpolation-filters">
+	<set name="com.opera.css3.svg-property.color-interpolation-filters">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="linearRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.color-profile">
+	<set name="com.opera.css3.svg-property.color-profile">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.color-rendering">
+	<set name="com.opera.css3.svg-property.color-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="optimizeQuality" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="com.opera.svgcss.property.display-align">
+	<set name="com.opera.css3.svg-property.display-align">
 		<completion string="auto" />
 		<completion string="before" />
 		<completion string="center" />
@@ -444,7 +444,7 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.dominant-baseline">
+	<set name="com.opera.css3.svg-property.dominant-baseline">
 		<completion string="auto" />
 		<completion string="use-script" />
 		<completion string="no-change" />
@@ -460,99 +460,99 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.enable-background">
+	<set name="com.opera.css3.svg-property.enable-background">
 		<completion string="accumulate" />
 		<completion string="new" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.fill">
+	<set name="com.opera.css3.svg-property.fill">
 		<!--completion string="@color" /-->
 		<completion string="inherit" />
 	</set>	
 	
-	<set name="com.opera.svgcss.property.fill-opacity">
+	<set name="com.opera.css3.svg-property.fill-opacity">
 		<completion string="inherit" />
 	</set>	
 	
-	<set name="com.opera.svgcss.property.fill-rule">
+	<set name="com.opera.css3.svg-property.fill-rule">
 		<completion string="nonzero" />
 		<completion string="evenodd" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.filter">
+	<set name="com.opera.css3.svg-property.filter">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.flood-color">
+	<set name="com.opera.css3.svg-property.flood-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.flood-opacity">
+	<set name="com.opera.css3.svg-property.flood-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.glyph-orientation-vertical">
+	<set name="com.opera.css3.svg-property.glyph-orientation-vertical">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.glyph-orientation-horizontal">
+	<set name="com.opera.css3.svg-property.glyph-orientation-horizontal">
 		<completion string="inherit" />
 	</set>
 
-    <set name="com.opera.svgcss.property.image-rendering">
+    <set name="com.opera.css3.svg-property.image-rendering">
 	 	<completion string="auto" />
 	 	<completion string="optimizeSpeed" />
 	 	<completion string="optimizeQuality" />
 	 	<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.kerning">
+	<set name="com.opera.css3.svg-property.kerning">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.lighting-color">
+	<set name="com.opera.css3.svg-property.lighting-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.line-increment">
+	<set name="com.opera.css3.svg-property.line-increment">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="com.opera.svgcss.property.marker">
+	<set name="com.opera.css3.svg-property.marker">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-		<set name="com.opera.svgcss.property.marker-end">
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	<set name="com.opera.svgcss.property.marker-mid">
+		<set name="com.opera.css3.svg-property.marker-end">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.marker-start">
+	<set name="com.opera.css3.svg-property.marker-mid">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.marker-start">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="com.opera.svgcss.property.mask">
+	<set name="com.opera.css3.svg-property.mask">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.pointer-events">
+	<set name="com.opera.css3.svg-property.pointer-events">
 		<completion string="visiblePainted" />
 		<completion string="visibleFill" />
 		<completion string="visibleStroke" />
@@ -565,7 +565,7 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.shape-rendering">
+	<set name="com.opera.css3.svg-property.shape-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="crispEdges" />
@@ -573,71 +573,71 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.solid-color">
+	<set name="com.opera.css3.svg-property.solid-color">
 		<!--completion string="@color" /-->
 		<completion string="none" />
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.solid-opacity">
+	<set name="com.opera.css3.svg-property.solid-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stop-color">
+	<set name="com.opera.css3.svg-property.stop-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
-	<set name="com.opera.svgcss.property.stop-opacity">
+	<set name="com.opera.css3.svg-property.stop-opacity">
 		<completion string="inherit" />
 	</set>
-	<set name="com.opera.svgcss.property.stroke">
+	<set name="com.opera.css3.svg-property.stroke">
 		<completion string="inherit" />
 	</set>
-	<set name="com.opera.svgcss.property.stroke-dasharray">
+	<set name="com.opera.css3.svg-property.stroke-dasharray">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-dashoffset">
+	<set name="com.opera.css3.svg-property.stroke-dashoffset">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-linecap">
+	<set name="com.opera.css3.svg-property.stroke-linecap">
 		<completion string="butt" />
 		<completion string="round" />
 		<completion string="square" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-linejoin">
+	<set name="com.opera.css3.svg-property.stroke-linejoin">
 		<completion string="miter" />
 		<completion string="round" />
 		<completion string="bevel" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-miterlimit">
+	<set name="com.opera.css3.svg-property.stroke-miterlimit">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-opacity">
+	<set name="com.opera.css3.svg-property.stroke-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.stroke-width">
+	<set name="com.opera.css3.svg-property.stroke-width">
 		<completion string="inherit" />
 	</set>
 
-	<set name="com.opera.svgcss.property.text-anchor">
+	<set name="com.opera.css3.svg-property.text-anchor">
 		<completion string="start" />
 		<completion string="middle" />
 		<completion string="end" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.text-rendering">
+	<set name="com.opera.css3.svg-property.text-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="optimizeLegibility" />
@@ -645,24 +645,24 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.vector-effect">
+	<set name="com.opera.css3.svg-property.vector-effect">
 		<completion string="non-scaling-stroke" />
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.viewport-fill">
+	<set name="com.opera.css3.svg-property.viewport-fill">
 		<!--completion string="@color" /-->
 		<completion string="none" />
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.viewport-fill-opacity">
+	<set name="com.opera.css3.svg-property.viewport-fill-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="com.opera.svgcss.property.writing-mode">
+	<set name="com.opera.css3.svg-property.writing-mode">
 		<completion string="lr-tb" />
 		<completion string="rl-tb" />
 		<completion string="tb-rl" />
@@ -725,7 +725,7 @@
 		<completion string="word-wrap" />
 	</set>
 		
-	<set name="com.opera.svgcss.properties">
+	<set name="com.opera.css3.svg-properties">
 		<behavior>
 			<append-dynamic>
 				<matched-suffix>(\s*:)|[^:]</matched-suffix>

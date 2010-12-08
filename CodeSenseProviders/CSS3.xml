@@ -10,7 +10,7 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<provider>
 		<selector>css > property-name:capture(name) + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name:capture(name) + property-value > punctuation.terminator</selector>
 		<completions>de.minimalweb.css3.property.${name}</completions>
-		<completions>com.opera.svgcss.property.${name}</completions>
+		<completions>com.opera.css3.svg-property.${name}</completions>
 		<complete-match>[a-zA-Z0-9-]*</complete-match>
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
@@ -49,7 +49,7 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<!-- SVG CSS properties -->
 	<provider>
 		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
-		<completions>com.opera.svgcss.properties</completions>
+		<completions>com.opera.css3.svg-properties</completions>
 		<complete-match>[a-zA-Z0-9-]+</complete-match>
 	</provider>
 
