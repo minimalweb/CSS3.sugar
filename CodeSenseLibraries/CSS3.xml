@@ -300,7 +300,59 @@
 		<completion string="ellipsis" />
 		<completion string="-o-ellipsis-lastline" />
 	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-transition-timing-function">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-transition-timing-function">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+	</set>
 
+	<set name="de.minimalweb.css3.property.-webkit-transition-timing-function">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.transition-timing-function">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.word-wrap">
 		<completion string="normal" />
 		<completion string="break-word" />
@@ -431,6 +483,10 @@
 		<completion string="-moz-column-width" />
 		<completion string="-moz-transform" />
 		<completion string="-moz-transform-origin" />
+		<completion string="-moz-transition" />
+		<completion string="-moz-transition-property" />
+		<completion string="-moz-transition-duration" />
+		<completion string="-moz-transition-timing-function" />
 		<completion string="-moz-user-modify" />
 		<completion string="-moz-user-select" />
 		
