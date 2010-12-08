@@ -56,6 +56,12 @@
 	  <completion string="round" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.background-size">
+	  <completion string="contain" />
+	  <completion string="cover" />
+	  <completion string="inherit" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.border-image-slice">
 		<completion string="fill" />
 	</set>
@@ -73,10 +79,18 @@
 		<completion string="repeat" />
 		<completion string="round" />
 		<completion string="space" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.box-decoration-break">
+		<completion string="clone" />
+		<completion string="slice" />
+		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.box-shadow">
 		<completion string="none" />
+		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.column-rule">
@@ -243,6 +257,7 @@
 		<completion string="border-bottom-right-radius" />
 		<completion string="border-bottom-left-radius" />
 		<completion string="border-top-left-radius" />
+		<completion string="box-decoration-break" />		
 		<completion string="box-shadow" />
 		<completion string="box-sizing" />
 		<completion string="column-count" />
