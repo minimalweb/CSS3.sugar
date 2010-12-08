@@ -196,6 +196,22 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.-o-object-fit">
+		<completion string="cover" />
+		<completion string="contain" />
+		<completion string="fill" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-object-position">
+		<completion string="top" />
+		<completion string="right" />
+		<completion string="bottom" />
+		<completion string="left" />
+		<completion string="center" />
+		<completion string="inherit" />
+	</set>
+	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -312,6 +328,9 @@
 		<completion string="-moz-user-select" />
 		
 		<!-- Opera -->
+		<completion string="-o-border-image" />
+		<completion string="-o-object-fit" />	
+		<completion string="-o-object-position" />
 		<completion string="-o-transform" />
 		<completion string="-o-transform-origin" />
 		<completion string="-o-transition" />
