@@ -14,6 +14,14 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
 	
+	<!-- SVG specific CSS property values -->
+	<provider>
+		<selector>css > property-name:capture(name) + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name:capture(name) + property-value > punctuation.terminator</selector>
+		<completions>com.opera.svgcss.property.${name}</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+
 	<!-- URL values -->
 	<provider>
 		<selector>css > property-name[text='background'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='background-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background-image'] + property-value > punctuation.terminator, css > property-name[text='border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='border-image'] + property-value > punctuation.terminator, css > property-name[text='-moz-border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='-moz-border-image'] + property-value > punctuation.terminator, css > property-name[text='-webkit-border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='-webkit-border-image'] + property-value > punctuation.terminator</selector>
@@ -44,6 +52,14 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<completions>de.minimalweb.css3.properties</completions>
 		<complete-match>[a-zA-Z0-9-]+</complete-match>
 	</provider>
+	
+	<!-- SVG CSS properties -->
+	<provider>
+		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
+		<completions>com.opera.svgcss.properties</completions>
+		<complete-match>[a-zA-Z0-9-]+</complete-match>
+	</provider>
+
 	
 	<!-- CSS pseudos -->
 	<provider>

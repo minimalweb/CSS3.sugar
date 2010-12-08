@@ -16,6 +16,9 @@ CSS3 Features
 * CSS-Animations (incomplete)
 * transforms (incomplete)
 * transitions (incomplete)
+* backgrounds & borders
+* basic UI
+* SVG specific CSS properties
 
 
 General Enhancements

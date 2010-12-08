@@ -355,13 +355,12 @@
 	
 	<set name="de.minimalweb.css3.property.word-wrap">
 		<completion string="normal" />
-		<completion string="break-word" />
-		
+		<completion string="break-word" />	
 	</set>
 	
 	<!-- SVG specific values -->
 	
-	<set name="de.minimalweb.css3.property.alignment-baseline">
+	<set name="com.opera.svgcss.property.alignment-baseline">
 		<completion string="auto" />
 		<completion string="baseline" />
 		<completion string="before-edge" />
@@ -377,67 +376,67 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.audio-level">
+	<set name="com.opera.svgcss.property.audio-level">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.baseline-shift">
+	<set name="com.opera.svgcss.property.baseline-shift">
 		<completion string="baseline" />
 		<completion string="sub" />
 		<completion string="super" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.buffered-rendering">
+	<set name="com.opera.svgcss.property.buffered-rendering">
 		<completion string="auto" />
 		<completion string="dynamic" />
 		<completion string="static" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.clip">
+	<set name="com.opera.svgcss.property.clip">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.clip-path">
+	<set name="com.opera.svgcss.property.clip-path">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.clip-rule">
+	<set name="com.opera.svgcss.property.clip-rule">
 		<completion string="nonzero" />
 		<completion string="evenodd" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.color-interpolation">
+	<set name="com.opera.svgcss.property.color-interpolation">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="linearRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.color-interpolation-filters">
+	<set name="com.opera.svgcss.property.color-interpolation-filters">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="linearRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.color-profile">
+	<set name="com.opera.svgcss.property.color-profile">
 		<completion string="auto" />
 		<completion string="sRGB" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.color-rendering">
+	<set name="com.opera.svgcss.property.color-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="optimizeQuality" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="de.minimalweb.css3.property.display-align">
+	<set name="com.opera.svgcss.property.display-align">
 		<completion string="auto" />
 		<completion string="before" />
 		<completion string="center" />
@@ -445,7 +444,7 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.dominant-baseline">
+	<set name="com.opera.svgcss.property.dominant-baseline">
 		<completion string="auto" />
 		<completion string="use-script" />
 		<completion string="no-change" />
@@ -461,104 +460,99 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.enable-background">
+	<set name="com.opera.svgcss.property.enable-background">
 		<completion string="accumulate" />
 		<completion string="new" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.fill">
+	<set name="com.opera.svgcss.property.fill">
 		<!--completion string="@color" /-->
 		<completion string="inherit" />
 	</set>	
 	
-	<set name="de.minimalweb.css3.property.fill-opacity">
+	<set name="com.opera.svgcss.property.fill-opacity">
 		<completion string="inherit" />
 	</set>	
 	
-	<set name="de.minimalweb.css3.property.fill-rule">
+	<set name="com.opera.svgcss.property.fill-rule">
 		<completion string="nonzero" />
 		<completion string="evenodd" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.filter">
+	<set name="com.opera.svgcss.property.filter">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.flood-color">
+	<set name="com.opera.svgcss.property.flood-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.flood-opacity">
+	<set name="com.opera.svgcss.property.flood-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.glyph-orientation-vertical">
+	<set name="com.opera.svgcss.property.glyph-orientation-vertical">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.glyph-orientation-horizontal">
+	<set name="com.opera.svgcss.property.glyph-orientation-horizontal">
 		<completion string="inherit" />
 	</set>
 
-    <set name="de.minimalweb.css3.property.image-rendering">
+    <set name="com.opera.svgcss.property.image-rendering">
 	 	<completion string="auto" />
 	 	<completion string="optimizeSpeed" />
 	 	<completion string="optimizeQuality" />
 	 	<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.kerning">
+	<set name="com.opera.svgcss.property.kerning">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.lighting-color">
+	<set name="com.opera.svgcss.property.lighting-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.line-increment">
+	<set name="com.opera.svgcss.property.line-increment">
 		<completion string="auto" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="de.minimalweb.css3.property.marker">
+	<set name="com.opera.svgcss.property.marker">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
-		<set name="de.minimalweb.css3.property.marker-end">
-		<completion string="none" />
-		<completion string="inherit" />
-	</set>
-	
-	<set name="de.minimalweb.css3.property.marker-mid">
+		<set name="com.opera.svgcss.property.marker-end">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.marker-offset">
-		<completion string="auto" />
+	<set name="com.opera.svgcss.property.marker-mid">
+		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.marker-start">
+	<set name="com.opera.svgcss.property.marker-start">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 
-	<set name="de.minimalweb.css3.property.mask">
+	<set name="com.opera.svgcss.property.mask">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.pointer-events">
+	<set name="com.opera.svgcss.property.pointer-events">
 		<completion string="visiblePainted" />
 		<completion string="visibleFill" />
 		<completion string="visibleStroke" />
@@ -571,7 +565,7 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.shape-rendering">
+	<set name="com.opera.svgcss.property.shape-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="crispEdges" />
@@ -579,71 +573,71 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.solid-color">
+	<set name="com.opera.svgcss.property.solid-color">
 		<!--completion string="@color" /-->
 		<completion string="none" />
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.solid-opacity">
+	<set name="com.opera.svgcss.property.solid-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stop-color">
+	<set name="com.opera.svgcss.property.stop-color">
 		<!--completion string="@color" /-->
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
-	<set name="de.minimalweb.css3.property.stop-opacity">
+	<set name="com.opera.svgcss.property.stop-opacity">
 		<completion string="inherit" />
 	</set>
-	<set name="de.minimalweb.css3.property.stroke">
+	<set name="com.opera.svgcss.property.stroke">
 		<completion string="inherit" />
 	</set>
-	<set name="de.minimalweb.css3.property.stroke-dasharray">
+	<set name="com.opera.svgcss.property.stroke-dasharray">
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-dashoffset">
+	<set name="com.opera.svgcss.property.stroke-dashoffset">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-linecap">
+	<set name="com.opera.svgcss.property.stroke-linecap">
 		<completion string="butt" />
 		<completion string="round" />
 		<completion string="square" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-linejoin">
+	<set name="com.opera.svgcss.property.stroke-linejoin">
 		<completion string="miter" />
 		<completion string="round" />
 		<completion string="bevel" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-miterlimit">
+	<set name="com.opera.svgcss.property.stroke-miterlimit">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-opacity">
+	<set name="com.opera.svgcss.property.stroke-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.stroke-width">
+	<set name="com.opera.svgcss.property.stroke-width">
 		<completion string="inherit" />
 	</set>
 
-	<set name="de.minimalweb.css3.property.text-anchor">
+	<set name="com.opera.svgcss.property.text-anchor">
 		<completion string="start" />
 		<completion string="middle" />
 		<completion string="end" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.text-rendering">
+	<set name="com.opera.svgcss.property.text-rendering">
 		<completion string="auto" />
 		<completion string="optimizeSpeed" />
 		<completion string="optimizeLegibility" />
@@ -651,24 +645,24 @@
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.vector-effect">
+	<set name="com.opera.svgcss.property.vector-effect">
 		<completion string="non-scaling-stroke" />
 		<completion string="none" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.viewport-fill">
+	<set name="com.opera.svgcss.property.viewport-fill">
 		<!--completion string="@color" /-->
 		<completion string="none" />
 		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.viewport-fill-opacity">
+	<set name="com.opera.svgcss.property.viewport-fill-opacity">
 		<completion string="inherit" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.writing-mode">
+	<set name="com.opera.svgcss.property.writing-mode">
 		<completion string="lr-tb" />
 		<completion string="rl-tb" />
 		<completion string="tb-rl" />
@@ -729,9 +723,18 @@
 		<completion string="text-overflow" />
 		<completion string="text-shadow" />
 		<completion string="word-wrap" />
+	</set>
 		
-		<!--SVG-Specific Properties -->
-
+	<set name="com.opera.svgcss.properties">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::: $0;)</transform-into>
+			</append-dynamic>
+			<confirm characters=":" />
+			<partial-confirm characters="-" />
+		</behavior>
+		
 		<completion string="alignment-baseline" />
 		<completion string="audio-level" />
 		<completion string="baseline-shift" />
@@ -761,7 +764,6 @@
 		<completion string="marker" />
 		<completion string="marker-end" />
 		<completion string="marker-mid" />
-		<completion string="marker-offset" />
 		<completion string="marker-start" />
 		<completion string="mask" />
 		<completion string="pointer-events" />
@@ -784,12 +786,6 @@
 		<completion string="viewport-fill" />
 		<completion string="viewport-fill-opacity" />
 		<completion string="writing-mode" />
-	</set>
-	
-	<set name="de.minimalweb.css3.property.vector-effect">
-		<completion string="non-scaling-stroke" />
-		<completion string="none" />
-		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.url-values">
