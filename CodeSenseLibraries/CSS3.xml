@@ -295,6 +295,18 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.text-overflow">
+		<completion string="clip" />
+		<completion string="ellipsis" />
+		<completion string="-o-ellipsis-lastline" />
+	</set>
+
+	<set name="de.minimalweb.css3.property.word-wrap">
+		<completion string="normal" />
+		<completion string="break-word" />
+		
+	</set>
+	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -343,7 +355,9 @@
 		<completion string="overflow-x" />
 		<completion string="overflow-y" />
 		<completion string="resize" />
+		<completion string="text-overflow" />
 		<completion string="text-shadow" />
+		<completion string="word-wrap" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.url-values">
