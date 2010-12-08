@@ -93,6 +93,12 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.box-sizing">
+		<completion string="content-box" />
+		<completion string="border-box" />
+		<completion string="inherit" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.column-rule">
 		<completion string="none" />
 		<completion string="hidden" />
@@ -210,6 +216,39 @@
 		<completion string="inherit" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.nav-index">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-up">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-right">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-down">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-left">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.-o-object-fit">
 		<completion string="cover" />
 		<completion string="contain" />
@@ -223,6 +262,10 @@
 		<completion string="bottom" />
 		<completion string="left" />
 		<completion string="center" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.outline-offset">
 		<completion string="inherit" />
 	</set>
 	
@@ -243,7 +286,14 @@
 		<completion string="no-display" />
 		<completion string="no-content" />
 	</set>
-
+	
+	<set name="de.minimalweb.css3.property.resize">
+		<completion string="none" />
+		<completion string="both" />
+		<completion string="horizontal" />
+		<completion string="vertical" />
+		<completion string="inherit" />
+	</set>
 	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
@@ -284,8 +334,15 @@
 		<completion string="column-rule" />
 		<completion string="column-span" />
 		<completion string="column-width" />
+		<completion string="nav-index" />
+		<completion string="nav-up" />
+		<completion string="nav-right" />
+		<completion string="nav-down" />
+		<completion string="nav-left" />
+		<completion string="outline-offset" />
 		<completion string="overflow-x" />
 		<completion string="overflow-y" />
+		<completion string="resize" />
 		<completion string="text-shadow" />
 	</set>
 	
@@ -401,6 +458,7 @@
 		<completion string=":after" />
 		<completion string=":before" />
 		<completion string=":checked" />
+		<completion string=":default" />
 		<completion string=":disabled" />
 		<completion string=":enabled" />
 		<completion string=":empty" />
@@ -410,7 +468,9 @@
 		<completion string=":first-of-type" />
 		<completion string=":focus" />
 		<completion string=":hover" />
+		<completion string=":in-range" />		
 		<completion string=":indeterminate" />
+		<completion string=":invalid" />
 		<completion string=":last-child" />
 		<completion string=":last-of-type" />
 		<completion string=":link" />
@@ -441,8 +501,14 @@
 		</completion>
 		<completion string=":only-child" />
 		<completion string=":only-of-type" />
+		<completion string=":optional" />
+		<completion string=":out-of-range" />
+		<completion string=":read-only" />
+		<completion string=":read-write" />
+		<completion string=":required" />
 		<completion string=":root" />
 		<completion string=":target" />
+		<completion string=":valid" />
 		<completion string=":visited" />
 	</set>
 	
