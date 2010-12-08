@@ -811,7 +811,7 @@
 			<partial-confirm characters="-" />
 		</behavior>
 		
-		<!-- Webkit -->
+		<!-- WebKit -->
 		<completion string="-webkit-animation" />
 		<completion string="-webkit-animation-direction" />
 		<completion string="-webkit-animation-duration" />
@@ -884,7 +884,7 @@
 	</set>
 	
 	<set name="de.minimalweb.css3.at-rules">
-  	<behavior>
+  	    <behavior>
 			<partial-confirm characters="-" />
 		</behavior>
 		<completion string="@charset" />
@@ -897,7 +897,7 @@
 	</set>
 	
 	<set name="de.minimalweb.css3.classes.pseudo">
-  	<behavior>
+  	    <behavior>
 			<partial-confirm characters="-" />
 		</behavior>
 		<completion string=":active" />
@@ -966,5 +966,10 @@
 		<completion string="::first-letter" />
 		<completion string="::before" />
 		<completion string="::after" />
+		<completion string="::selection" />
+		<completion string="::value" />
+		<completion string="::choices" />
+		<completion string="::repeat-item" />
+		<completion string="::repeat-index" />
 	</set>
 </codesense>
