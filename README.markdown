@@ -9,9 +9,10 @@ This branch merges @dstorey’s previous CSS3/SVG sugar with minimalweb’s CSS3
 CSS3 Features
 =============
 
-* gradients
+* images (gradients, object-fit/-position)
 * multi columns
-* rgb, rgba, hsl, hsla
+* <color> values (rgb, rgba, hsl, hsla, currentColor, transparent, SVG named colors)
+* <uri> values
 * pseudo classes and elements
 * CSS-Animations (incomplete)
 * transforms (incomplete)

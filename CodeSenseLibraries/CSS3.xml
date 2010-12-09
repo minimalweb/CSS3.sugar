@@ -513,11 +513,6 @@
 	</set>
 	
 	<set name="de.minimalweb.css3.property.-o-object-position">
-		<completion string="top" />
-		<completion string="right" />
-		<completion string="bottom" />
-		<completion string="left" />
-		<completion string="center" />
 		<completion string="inherit" />
 	</set>
 	

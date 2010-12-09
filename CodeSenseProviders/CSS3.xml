@@ -17,12 +17,11 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	
 	<!-- position values -->
 	<provider>
-		<selector>css > property-name[text='transform-origin'] + property-value - punctuation.separator, css > property-name[text='transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-moz-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-moz-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-webkit-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-webkit-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-o-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-o-transform-origin'] + property-value > punctuation.terminator</selector>
+		<selector>css > property-name[text='transform-origin'] + property-value - punctuation.separator, css > property-name[text='transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-moz-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-moz-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-webkit-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-webkit-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-o-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-o-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-o-object-position'] + property-value - punctuation.separator, css > property-name[text='-o-object-position'] + property-value > punctuation.terminator</selector>
 		<completions>com.opera.css3.property.position-values</completions>
 		<complete-match>[a-zA-Z0-9-]*</complete-match>
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
-	
 	
 	<!-- URL values -->
 	<provider>
