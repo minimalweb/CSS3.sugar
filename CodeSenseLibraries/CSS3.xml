@@ -15,6 +15,94 @@
 	  <completion string="content-box" />
 	</set>
 	
+	<set name="com.opera.css3.property.position-values">
+	  <completion string="left" />
+	  <completion string="center" />
+	  <completion string="right" />
+	  <completion string="top" />
+	  <completion string="bottom" />
+	</set>
+	
+	<set name="com.opera.css3.property.transition-timing-function-values">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+		<completion string="step-start" />
+		<completion string="step-end" />
+		<completion string="steps">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string="cubic-bezier">
+	  		<behavior>
+				<append-static>($1, $2, $3, $4)</append-static>
+			</behavior>
+	  </completion>
+	</set>
+	
+	<set name="com.opera.css3.property.transform-function-values">
+		<completion string="none" />
+		<completion string="matrix">
+	  		<behavior>
+				<append-static>($1, $2, $3, $4, $5, $6)</append-static>
+			</behavior>
+		</completion>
+		<completion string="translate">
+	  		<behavior>
+				<append-static>($1, $2)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="translateX">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="translateY">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scale">
+	  		<behavior>
+				<append-static>($1, $2)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scaleX">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scaleY">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="rotate">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skew">
+	  		<behavior>
+				<append-static>($1deg, $2deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skewX">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skewY">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+
+	</set>
+	
 	<set name="com.opera.css3.property.color-values">
 	  <completion string="rgb">
 	  	<behavior>
@@ -489,38 +577,6 @@
 		<completion string="all" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.-moz-transition-timing-function">
-		<completion string="ease" />
-		<completion string="linear" />
-		<completion string="ease-in" />
-		<completion string="ease-out" />
-		<completion string="ease-in-out" />
-	</set>
-	
-	<set name="de.minimalweb.css3.property.-o-transition-timing-function">
-		<completion string="ease" />
-		<completion string="linear" />
-		<completion string="ease-in" />
-		<completion string="ease-out" />
-		<completion string="ease-in-out" />
-	</set>
-
-	<set name="de.minimalweb.css3.property.-webkit-transition-timing-function">
-		<completion string="ease" />
-		<completion string="linear" />
-		<completion string="ease-in" />
-		<completion string="ease-out" />
-		<completion string="ease-in-out" />
-	</set>
-	
-	<set name="de.minimalweb.css3.property.transition-timing-function">
-		<completion string="ease" />
-		<completion string="linear" />
-		<completion string="ease-in" />
-		<completion string="ease-out" />
-		<completion string="ease-in-out" />
-	</set>
-	
 	<set name="de.minimalweb.css3.property.word-wrap">
 		<completion string="normal" />
 		<completion string="break-word" />	
@@ -885,6 +941,13 @@
 		<completion string="resize" />
 		<completion string="text-overflow" />
 		<completion string="text-shadow" />
+		<completion string="transform" />
+		<completion string="transform-origin" />
+		<completion string="transition" />
+		<completion string="transition-delay" />
+		<completion string="transition-duration" />
+		<completion string="transition-property" />
+		<completion string="transition-timing-function" />
 		<completion string="word-wrap" />
 	</set>
 		
