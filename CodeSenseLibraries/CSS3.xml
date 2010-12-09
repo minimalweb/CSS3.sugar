@@ -15,6 +15,25 @@
 	  <completion string="content-box" />
 	</set>
 	
+	<set name="com.opera.css3.property.appearance-values">
+		<completion string="none" />
+		<completion string="button" />
+		<completion string="checkbox" />
+		<completion string="listbox" /> <!-- this and all below are non-standard -->
+		<completion string="menulist" />
+		<completion string="menulist-button" />
+		<completion string="menulist-textfield" />
+		<completion string="push-button" />
+		<completion string="radio" />
+		<completion string="text-field" />
+		<completion string="scrollbarbutton-down" />
+		<completion string="scrollbarbutton-left" />
+		<completion string="scrollbarbutton-right" />
+		<completion string="scrollbarbutton-up" />
+		<completion string="scrollbartrack-horizontal" />
+		<completion string="scrollbartrack-vertical" />	
+	</set>
+	
 	<set name="com.opera.css3.property.position-values">
 	  <completion string="left" />
 	  <completion string="center" />
@@ -270,6 +289,64 @@
 	  <completion string="whitesmoke" />
 	  <completion string="yellowgreen" />
 	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-appearance">
+		<completion string="checkbox-container" />
+		<completion string="checkbox-small" />
+		<completion string="dialog" />
+		<completion string="menupopup" />
+		<completion string="progressbar" />
+		<completion string="radio-container" />
+		<completion string="radio-small" />
+		<completion string="resizer" />
+		<completion string="scrollbar" />
+		<completion string="separator" />
+		<completion string="statusbar" />
+		<completion string="tab" />
+		<completion string="tabpanels" />
+		<completion string="toolbar" />
+		<completion string="toolbarbutton" />
+		<completion string="toolbox" />
+		<completion string="tooltip" />
+		<completion string="treeheadercell" />
+		<completion string="treeheadersortarrow" />
+		<completion string="treeitem" />
+		<completion string="treetwisty" />
+		<completion string="treetwistyopen" />
+		<completion string="treeview" />
+		<completion string="window" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-appearance">
+		<completion string="button-bevel" />
+		<completion string="caret" />
+		<completion string="default-button" />
+		<completion string="media-fullscreen-button" />
+		<completion string="media-mute-button" />
+		<completion string="media-play-button" />
+		<completion string="media-seek-back-button" />
+		<completion string="media-seek-forward-button" />
+		<completion string="media-slider" />
+		<completion string="media-sliderthumb" />
+		<completion string="menulist-text" />
+		<completion string="searchfield" />
+		<completion string="searchfield-cancel-button" />
+		<completion string="searchfield-decoration" />
+		<completion string="searchfield-results-button" />
+		<completion string="searchfield-results-decoration" />
+		<completion string="slider-horizontal" />
+		<completion string="slider-vertical" />
+		<completion string="sliderthumb-horizontal" />
+		<completion string="sliderthumb-vertical" />
+		<completion string="square-button" />
+		<completion string="textarea" />
+		<completion string="scrollbargripper-horizontal" />
+		<completion string="scrollbargripper-vertical" />
+		<completion string="scrollbarthumb-horizontal" />
+		<completion string="scrollbarthumb-vertical" />
+	</set>
+
+
 	
 	<set name="de.minimalweb.css3.property.background">
 		<completion string="linear-gradient">
@@ -1039,14 +1116,8 @@
 		<completion string="-webkit-animation-iteration-count" />
 		<completion string="-webkit-animation-name" />
 		<completion string="-webkit-animation-timing-function" />
+		<completion string="-webkit-appearance" />
 		<completion string="-webkit-background-clip" />
-		<completion string="-webkit-border-image" />
-		<completion string="-webkit-border-radius" />
-		<completion string="-webkit-border-top-left-radius" />
-		<completion string="-webkit-border-top-right-radius" />
-		<completion string="-webkit-border-bottom-left-radius" />
-		<completion string="-webkit-border-bottom-right-radius" />
-		<completion string="-webkit-box-shadow" />
 		<completion string="-webkit-box-sizing" />
 		<completion string="-webkit-column-count" />
 		<completion string="-webkit-column-gap" />
@@ -1054,23 +1125,15 @@
 		<completion string="-webkit-column-span" />
 		<completion string="-webkit-column-width" />
 		<completion string="-webkit-mask-image" />
-		<completion string="-webkit-transform" />
 		<completion string="-webkit-transform-origin" />
 		<completion string="-webkit-transition" />
 		<completion string="-webkit-transition-property" />
 		<completion string="-webkit-transition-duration" />
 		<completion string="-webkit-transition-timing-function" />
-		<completion string="-webkit-user-drag" />
-		<completion string="-webkit-user-modify" />
-		<completion string="-webkit-user-select" />
 		
 		<!-- Gecko -->
+		<completion string="-moz-appearance" />
 		<completion string="-moz-background-clip" />
-		<completion string="-moz-border-radius" />
-		<completion string="-moz-border-radius-topleft" />
-		<completion string="-moz-border-radius-topright" />
-		<completion string="-moz-border-radius-bottomleft" />
-		<completion string="-moz-border-radius-bottomright" />
 		<completion string="-moz-box-shadow" />
 		<completion string="-moz-box-sizing" />
 		<completion string="-moz-column-count" />
@@ -1084,8 +1147,6 @@
 		<completion string="-moz-transition-property" />
 		<completion string="-moz-transition-duration" />
 		<completion string="-moz-transition-timing-function" />
-		<completion string="-moz-user-modify" />
-		<completion string="-moz-user-select" />
 		
 		<!-- Opera -->
 		<completion string="-o-border-image" />
@@ -1129,6 +1190,7 @@
 		<completion string=":disabled" />
 		<completion string=":enabled" />
 		<completion string=":empty" />
+		<completion string=":first" />
 		<completion string=":first-child" />
 		<completion string=":first-line" />
 		<completion string=":first-letter" />
@@ -1138,9 +1200,15 @@
 		<completion string=":in-range" />		
 		<completion string=":indeterminate" />
 		<completion string=":invalid" />
+		<completion string=":lang">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
 		<completion string=":last-child" />
 		<completion string=":last-of-type" />
 		<completion string=":link" />
+		<completion string=":left" />
 		<completion string=":not">
 			<behavior>
 				<append-static>($1)</append-static>
@@ -1173,6 +1241,7 @@
 		<completion string=":read-only" />
 		<completion string=":read-write" />
 		<completion string=":required" />
+		<completion string=":right" />
 		<completion string=":root" />
 		<completion string=":target" />
 		<completion string=":valid" />

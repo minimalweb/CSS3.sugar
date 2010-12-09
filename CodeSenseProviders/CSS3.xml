@@ -15,6 +15,14 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
 	
+	<!-- appearance values -->
+	<provider>
+		<selector>css > property-name[text='-webkit-appearance'] + property-value - punctuation.separator, css > property-name[text='-webkit-appearance'] + property-value > punctuation.terminator, css > property-name[text='-moz-appearance'] + property-value - punctuation.separator, css > property-name[text='-moz-appearance'] + property-value > punctuation.terminator</selector>
+		<completions>com.opera.css3.property.appearance-values</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
+	
 	<!-- position values -->
 	<provider>
 		<selector>css > property-name[text='transform-origin'] + property-value - punctuation.separator, css > property-name[text='transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-moz-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-moz-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-webkit-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-webkit-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-o-transform-origin'] + property-value - punctuation.separator, css > property-name[text='-o-transform-origin'] + property-value > punctuation.terminator, css > property-name[text='-o-object-position'] + property-value - punctuation.separator, css > property-name[text='-o-object-position'] + property-value > punctuation.terminator</selector>
