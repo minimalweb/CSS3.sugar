@@ -15,6 +15,174 @@
 	  <completion string="content-box" />
 	</set>
 	
+	<set name="com.opera.css3.property.color-values">
+	  <completion string="rgb">
+	  	<behavior>
+			<append-static>($1, $2%, $3%)</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="rgba">
+	  	<behavior>
+			<append-static>($1, $2, $3, ${4:0.})</append-static>
+	    </behavior>
+	  </completion>
+	  <completion string="hsl">
+	  	<behavior>
+			<append-static>($1, $2%, $3%)</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="hsla">
+	  	<behavior>
+			<append-static>($1, $2%, $3%, ${4:0.})</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="black" />
+	  <completion string="silver" />
+	  <completion string="gray" />
+	  <completion string="white" />
+	  <completion string="maroon" />
+	  <completion string="red" />
+	  <completion string="purple" />
+	  <completion string="fuchsia" />
+	  <completion string="green" />
+	  <completion string="lime" />
+	  <completion string="olive" />
+	  <completion string="yellow" />
+	  <completion string="navy" />
+	  <completion string="blue" />
+	  <completion string="teal" />
+	  <completion string="aqua" />
+	  <completion string="transparent" />
+	  <completion string="currentColor" />
+	  <completion string="aliceblue" />
+	  <completion string="antiquewhite" />
+	  <completion string="aquamarine" />
+	  <completion string="azure" />
+	  <completion string="beige" />
+	  <completion string="bisque" />
+	  <completion string="blanchedalmond" />
+	  <completion string="blueviolet" />
+	  <completion string="brown" />
+	  <completion string="burlywood" />
+	  <completion string="cadetblue" />
+	  <completion string="chartreuse" />
+	  <completion string="chocolate" />
+	  <completion string="coral" />
+	  <completion string="cornflowerblue" />
+	  <completion string="cornsilk" />
+	  <completion string="crimson" />
+	  <completion string="cyan" />
+	  <completion string="darkblue" />
+	  <completion string="darkcyan" />
+	  <completion string="darkgoldenrod" />
+	  <completion string="darkgray" />
+	  <completion string="darkgreen" />
+	  <completion string="darkgrey" />
+	  <completion string="darkkhaki" />
+	  <completion string="darkmagenta" />
+	  <completion string="darkolivegreen" />
+	  <completion string="darkorange" />
+	  <completion string="darkorchid" />
+	  <completion string="darkred" />
+	  <completion string="darksalmon" />
+	  <completion string="darkseagreen" />
+	  <completion string="darkslateblue" />
+	  <completion string="darkslategray" />
+	  <completion string="darkslategrey" />
+	  <completion string="darkturquoise" />
+	  <completion string="darkviolet" />
+	  <completion string="deeppink" />
+	  <completion string="deepskyblue" />
+	  <completion string="dimgray" />
+	  <completion string="dimgrey" />
+	  <completion string="dodgerblue" />
+	  <completion string="firebrick" />
+	  <completion string="floralwhite" />
+	  <completion string="forestgreen" />
+	  <completion string="gainsboro" />
+	  <completion string="ghostwhite" />
+	  <completion string="gold" />
+	  <completion string="goldenrod" />
+      <completion string="greenyellow" />
+	  <completion string="grey" />
+	  <completion string="honeydew" />
+	  <completion string="hotpink" />
+	  <completion string="indianred" />
+	  <completion string="indigo" />
+	  <completion string="ivory" />
+	  <completion string="khaki" />
+	  <completion string="lavender" />
+	  <completion string="lavenderblush" />
+	  <completion string="lawngreen" />
+	  <completion string="lemonchiffon" />
+	  <completion string="lightblue" />
+	  <completion string="lightcoral" />
+	  <completion string="lightcyan" />
+	  <completion string="lightgoldenrodyellow" />
+	  <completion string="lightgray" />
+	  <completion string="lightgreen" />
+	  <completion string="lightgrey" />
+	  <completion string="lightpink" />
+	  <completion string="lightsalmon" />
+	  <completion string="lightseagreen" />
+	  <completion string="lightskyblue" />
+	  <completion string="lightslategray" />
+	  <completion string="lightslategrey" />
+	  <completion string="lightsteelblue" />
+	  <completion string="lightyellow" />
+	  <completion string="linen" />
+	  <completion string="magenta" />
+	  <completion string="mediumaquamarine" />
+	  <completion string="mediumblue" />
+	  <completion string="mediumorchid" />
+	  <completion string="mediumpurple" />
+	  <completion string="mediumseagreen" />
+	  <completion string="mediumslateblue" />
+	  <completion string="mediumspringgreen" />
+	  <completion string="mediumturquoise" />
+	  <completion string="mediumvioletred" />
+	  <completion string="midnightblue" />
+	  <completion string="mintcream" />
+	  <completion string="mistyrose" />
+	  <completion string="moccasin" />
+	  <completion string="navajowhite" />
+	  <completion string="oldlace" />
+	  <completion string="olivedrab" />
+	  <completion string="orange" />
+	  <completion string="orangered" />
+	  <completion string="orchid" />
+	  <completion string="palegoldenrod" />
+	  <completion string="palegreen" />
+	  <completion string="paleturquoise" />
+	  <completion string="palevioletred" />
+	  <completion string="papayawhip" />
+	  <completion string="peachpuff" />
+	  <completion string="peru" />
+	  <completion string="pink" />
+	  <completion string="plum" />
+	  <completion string="powderblue" />
+	  <completion string="rosybrown" />
+	  <completion string="royalblue" />
+	  <completion string="saddlebrown" />
+	  <completion string="sandybrown" />
+	  <completion string="seagreen" />
+	  <completion string="seashell" />
+	  <completion string="sienna" />
+	  <completion string="skyblue" />
+	  <completion string="slateblue" />
+	  <completion string="slategray" />
+	  <completion string="snow" />
+	  <completion string="springgreen" />
+	  <completion string="steelblue" />
+	  <completion string="tan" />
+	  <completion string="thistle" />
+	  <completion string="tomato" />
+	  <completion string="turquoise" />
+	  <completion string="violet" />
+	  <completion string="whitesmoke" />
+	  <completion string="yellowgreen" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.background">
 		<completion string="linear-gradient">
 		  <behavior>
@@ -488,7 +656,6 @@
 	
 	<set name="com.opera.css3.svg-property.flood-color">
 		<!--completion string="@color" /-->
-		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
@@ -519,7 +686,6 @@
 	
 	<set name="com.opera.css3.svg-property.lighting-color">
 		<!--completion string="@color" /-->
-		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
@@ -576,7 +742,6 @@
 	<set name="com.opera.css3.svg-property.solid-color">
 		<!--completion string="@color" /-->
 		<completion string="none" />
-		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	
@@ -586,7 +751,6 @@
 	
 	<set name="com.opera.css3.svg-property.stop-color">
 		<!--completion string="@color" /-->
-		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	<set name="com.opera.css3.svg-property.stop-opacity">
@@ -654,7 +818,6 @@
 	<set name="com.opera.css3.svg-property.viewport-fill">
 		<!--completion string="@color" /-->
 		<completion string="none" />
-		<completion string="currentColor" />
 		<completion string="inherit" />
 	</set>
 	

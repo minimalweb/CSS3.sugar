@@ -25,8 +25,9 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	
 	<!-- Color values -->
 	<provider>
-		<selector>css > property-name[text='color'] + property-value - punctuation.separator, css > property-name[text='color'] + property-value > punctuation.terminator, css > property-name[text='background-color'] + property-value - punctuation.separator, css > property-name[text='background-color'] + property-value > punctuation.terminator, css > property-name[text='background'] + property-value - punctuation.separator, css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='border'] + property-value - punctuation.separator, css > property-name[text='border'] + property-value > punctuation.terminator, css > property-name[text='border-color'] + property-value - punctuation.separator, css > property-name[text='border-color'] + property-value > punctuation.terminator</selector>
+		<selector>css > property-name[text='color'] + property-value - punctuation.separator, css > property-name[text='color'] + property-value > punctuation.terminator, css > property-name[text='background-color'] + property-value - punctuation.separator, css > property-name[text='background-color'] + property-value > punctuation.terminator, css > property-name[text='background'] + property-value - punctuation.separator, css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='border'] + property-value - punctuation.separator, css > property-name[text='border'] + property-value > punctuation.terminator, css > property-name[text='border-color'] + property-value - punctuation.separator, css > property-name[text='border-color'] + property-value > punctuation.terminator, css > property-name[text='outline-color'] + property-value - punctuation.separator, css > property-name[text='outline-color'] + property-value > punctuation.terminator, css > property-name[text='outline'] + property-value - punctuation.separator, css > property-name[text='outline'] + property-value > punctuation.terminator,  css > property-name[text='fill'] + property-value - punctuation.separator, css > property-name[text='fill'] + property-value > punctuation.terminator,  css > property-name[text='stroke'] + property-value - punctuation.separator, css > property-name[text='stroke'] + property-value > punctuation.terminator,  css > property-name[text='stop-color'] + property-value - punctuation.separator, css > property-name[text='stop-color'] + property-value > punctuation.terminator, css > property-name[text='flood-color'] + property-value - punctuation.separator, css > property-name[text='flood-color'] + property-value > punctuation.terminator, css > property-name[text='lighting-color'] + property-value - punctuation.separator, css > property-name[text='lighting-color'] + property-value > punctuation.terminator, css > property-name[text='viewport-fill'] + property-value - punctuation.separator, css > property-name[text='viewport-fill'] + property-value > punctuation.terminator, css > property-name[text='solid-color'] + property-value - punctuation.separator, css > property-name[text='solid-color'] + property-value > punctuation.terminator</selector>
 		<completions>de.minimalweb.css3.property.color-values</completions>
+		<completions>com.opera.css3.property.color-values</completions>
 		<complete-match>[a-zA-Z0-9-]*</complete-match>
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
@@ -43,16 +44,9 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 	<provider>
 		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
 		<completions>de.minimalweb.css3.properties</completions>
-		<complete-match>[a-zA-Z0-9-]+</complete-match>
-	</provider>
-	
-	<!-- SVG CSS properties -->
-	<provider>
-		<selector>property-list.css, property-list.css > property-name, property-list.css > property-value punctuation.separator</selector>
 		<completions>com.opera.css3.svg-properties</completions>
 		<complete-match>[a-zA-Z0-9-]+</complete-match>
 	</provider>
-
 	
 	<!-- CSS pseudos -->
 	<provider>
