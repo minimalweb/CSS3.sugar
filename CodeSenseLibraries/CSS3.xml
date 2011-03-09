@@ -669,10 +669,6 @@
 		<completion string="-o-ellipsis-lastline" />
 	</set>
 	
-	<set name="de.minimalweb.css3.property.text-rendering">
-		<completion string="optimizeLegibility" />
-	</set>
-	
 	<set name="de.minimalweb.css3.property.-moz-transition-property">
 		<completion string="none" />
 		<completion string="all" />
