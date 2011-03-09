@@ -3,9 +3,9 @@
 	<meta>
 		<name>CSS3.sugar</name>
 		<description>CSS3 properties</description>
-		<author>Maurice Kühlborn</author>
+		<author>Maurice Kühlborn, David Storey</author>
 		<identifier>de.minimalweb.Sugar.CSS3</identifier>
-		<version status="release">0.1</version>
-		<download format="git">git://github.com/minimalweb/CSS3.sugar.git</download>
+		<version status="release">0.2</version>
+		<download format="git">git://github.com/dstorey/CSS3.sugar.git</download>
 	</meta>
 </settings>

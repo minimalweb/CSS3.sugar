@@ -3,17 +3,23 @@ CSS3 Sugar
 
 This sugar adds autocompletion for native and browser specific CSS3 properties as well as an overall enhanced CSS support.
 
+This branch merges @dstorey’s previous CSS3/SVG sugar with minimalweb’s CSS3.sugar
+
 
 CSS3 Features
 =============
 
-* gradients
+* images (gradients, object-fit/-position)
 * multi columns
-* rgb, rgba, hsl, hsla
+* <color> values (rgb, rgba, hsl, hsla, currentColor, transparent, SVG named colors)
+* <uri> values
 * pseudo classes and elements
 * CSS-Animations (incomplete)
 * transforms (incomplete)
 * transitions (incomplete)
+* backgrounds & borders
+* basic UI
+* SVG specific CSS properties
 
 
 General Enhancements

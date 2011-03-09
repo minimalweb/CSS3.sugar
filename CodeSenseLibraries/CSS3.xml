@@ -15,6 +15,339 @@
 	  <completion string="content-box" />
 	</set>
 	
+	<set name="com.opera.css3.property.appearance-values">
+		<completion string="none" />
+		<completion string="button" />
+		<completion string="checkbox" />
+		<completion string="listbox" /> <!-- this and all below are non-standard -->
+		<completion string="menulist" />
+		<completion string="menulist-button" />
+		<completion string="menulist-textfield" />
+		<completion string="push-button" />
+		<completion string="radio" />
+		<completion string="text-field" />
+		<completion string="scrollbarbutton-down" />
+		<completion string="scrollbarbutton-left" />
+		<completion string="scrollbarbutton-right" />
+		<completion string="scrollbarbutton-up" />
+		<completion string="scrollbartrack-horizontal" />
+		<completion string="scrollbartrack-vertical" />	
+	</set>
+	
+	<set name="com.opera.css3.property.position-values">
+	  <completion string="left" />
+	  <completion string="center" />
+	  <completion string="right" />
+	  <completion string="top" />
+	  <completion string="bottom" />
+	</set>
+	
+	<set name="com.opera.css3.property.transition-timing-function-values">
+		<completion string="ease" />
+		<completion string="linear" />
+		<completion string="ease-in" />
+		<completion string="ease-out" />
+		<completion string="ease-in-out" />
+		<completion string="step-start" />
+		<completion string="step-end" />
+		<completion string="steps">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
+		<completion string="cubic-bezier">
+	  		<behavior>
+				<append-static>($1, $2, $3, $4)</append-static>
+			</behavior>
+	  </completion>
+	</set>
+	
+	<set name="com.opera.css3.property.transform-function-values">
+		<completion string="none" />
+		<completion string="matrix">
+	  		<behavior>
+				<append-static>($1, $2, $3, $4, $5, $6)</append-static>
+			</behavior>
+		</completion>
+		<completion string="translate">
+	  		<behavior>
+				<append-static>($1, $2)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="translateX">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="translateY">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scale">
+	  		<behavior>
+				<append-static>($1, $2)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scaleX">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="scaleY">
+	  		<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="rotate">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skew">
+	  		<behavior>
+				<append-static>($1deg, $2deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skewX">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+	  <completion string="skewY">
+	  		<behavior>
+				<append-static>($1deg)</append-static>
+			</behavior>
+	  </completion>
+
+	</set>
+	
+	<set name="com.opera.css3.property.color-values">
+	  <completion string="rgb">
+	  	<behavior>
+			<append-static>($1, $2%, $3%)</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="rgba">
+	  	<behavior>
+			<append-static>($1, $2, $3, ${4:0.})</append-static>
+	    </behavior>
+	  </completion>
+	  <completion string="hsl">
+	  	<behavior>
+			<append-static>($1, $2%, $3%)</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="hsla">
+	  	<behavior>
+			<append-static>($1, $2%, $3%, ${4:0.})</append-static>
+		</behavior>
+	  </completion>
+	  <completion string="black" />
+	  <completion string="silver" />
+	  <completion string="gray" />
+	  <completion string="white" />
+	  <completion string="maroon" />
+	  <completion string="red" />
+	  <completion string="purple" />
+	  <completion string="fuchsia" />
+	  <completion string="green" />
+	  <completion string="lime" />
+	  <completion string="olive" />
+	  <completion string="yellow" />
+	  <completion string="navy" />
+	  <completion string="blue" />
+	  <completion string="teal" />
+	  <completion string="aqua" />
+	  <completion string="transparent" />
+	  <completion string="currentColor" />
+	  <completion string="aliceblue" />
+	  <completion string="antiquewhite" />
+	  <completion string="aquamarine" />
+	  <completion string="azure" />
+	  <completion string="beige" />
+	  <completion string="bisque" />
+	  <completion string="blanchedalmond" />
+	  <completion string="blueviolet" />
+	  <completion string="brown" />
+	  <completion string="burlywood" />
+	  <completion string="cadetblue" />
+	  <completion string="chartreuse" />
+	  <completion string="chocolate" />
+	  <completion string="coral" />
+	  <completion string="cornflowerblue" />
+	  <completion string="cornsilk" />
+	  <completion string="crimson" />
+	  <completion string="cyan" />
+	  <completion string="darkblue" />
+	  <completion string="darkcyan" />
+	  <completion string="darkgoldenrod" />
+	  <completion string="darkgray" />
+	  <completion string="darkgreen" />
+	  <completion string="darkgrey" />
+	  <completion string="darkkhaki" />
+	  <completion string="darkmagenta" />
+	  <completion string="darkolivegreen" />
+	  <completion string="darkorange" />
+	  <completion string="darkorchid" />
+	  <completion string="darkred" />
+	  <completion string="darksalmon" />
+	  <completion string="darkseagreen" />
+	  <completion string="darkslateblue" />
+	  <completion string="darkslategray" />
+	  <completion string="darkslategrey" />
+	  <completion string="darkturquoise" />
+	  <completion string="darkviolet" />
+	  <completion string="deeppink" />
+	  <completion string="deepskyblue" />
+	  <completion string="dimgray" />
+	  <completion string="dimgrey" />
+	  <completion string="dodgerblue" />
+	  <completion string="firebrick" />
+	  <completion string="floralwhite" />
+	  <completion string="forestgreen" />
+	  <completion string="gainsboro" />
+	  <completion string="ghostwhite" />
+	  <completion string="gold" />
+	  <completion string="goldenrod" />
+		<completion string="greenyellow" />
+	  <completion string="grey" />
+	  <completion string="honeydew" />
+	  <completion string="hotpink" />
+	  <completion string="indianred" />
+	  <completion string="indigo" />
+	  <completion string="ivory" />
+	  <completion string="khaki" />
+	  <completion string="lavender" />
+	  <completion string="lavenderblush" />
+	  <completion string="lawngreen" />
+	  <completion string="lemonchiffon" />
+	  <completion string="lightblue" />
+	  <completion string="lightcoral" />
+	  <completion string="lightcyan" />
+	  <completion string="lightgoldenrodyellow" />
+	  <completion string="lightgray" />
+	  <completion string="lightgreen" />
+	  <completion string="lightgrey" />
+	  <completion string="lightpink" />
+	  <completion string="lightsalmon" />
+	  <completion string="lightseagreen" />
+	  <completion string="lightskyblue" />
+	  <completion string="lightslategray" />
+	  <completion string="lightslategrey" />
+	  <completion string="lightsteelblue" />
+	  <completion string="lightyellow" />
+	  <completion string="linen" />
+	  <completion string="magenta" />
+	  <completion string="mediumaquamarine" />
+	  <completion string="mediumblue" />
+	  <completion string="mediumorchid" />
+	  <completion string="mediumpurple" />
+	  <completion string="mediumseagreen" />
+	  <completion string="mediumslateblue" />
+	  <completion string="mediumspringgreen" />
+	  <completion string="mediumturquoise" />
+	  <completion string="mediumvioletred" />
+	  <completion string="midnightblue" />
+	  <completion string="mintcream" />
+	  <completion string="mistyrose" />
+	  <completion string="moccasin" />
+	  <completion string="navajowhite" />
+	  <completion string="oldlace" />
+	  <completion string="olivedrab" />
+	  <completion string="orange" />
+	  <completion string="orangered" />
+	  <completion string="orchid" />
+	  <completion string="palegoldenrod" />
+	  <completion string="palegreen" />
+	  <completion string="paleturquoise" />
+	  <completion string="palevioletred" />
+	  <completion string="papayawhip" />
+	  <completion string="peachpuff" />
+	  <completion string="peru" />
+	  <completion string="pink" />
+	  <completion string="plum" />
+	  <completion string="powderblue" />
+	  <completion string="rosybrown" />
+	  <completion string="royalblue" />
+	  <completion string="saddlebrown" />
+	  <completion string="sandybrown" />
+	  <completion string="seagreen" />
+	  <completion string="seashell" />
+	  <completion string="sienna" />
+	  <completion string="skyblue" />
+	  <completion string="slateblue" />
+	  <completion string="slategray" />
+	  <completion string="snow" />
+	  <completion string="springgreen" />
+	  <completion string="steelblue" />
+	  <completion string="tan" />
+	  <completion string="thistle" />
+	  <completion string="tomato" />
+	  <completion string="turquoise" />
+	  <completion string="violet" />
+	  <completion string="whitesmoke" />
+	  <completion string="yellowgreen" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-moz-appearance">
+		<completion string="checkbox-container" />
+		<completion string="checkbox-small" />
+		<completion string="dialog" />
+		<completion string="menupopup" />
+		<completion string="progressbar" />
+		<completion string="radio-container" />
+		<completion string="radio-small" />
+		<completion string="resizer" />
+		<completion string="scrollbar" />
+		<completion string="separator" />
+		<completion string="statusbar" />
+		<completion string="tab" />
+		<completion string="tabpanels" />
+		<completion string="toolbar" />
+		<completion string="toolbarbutton" />
+		<completion string="toolbox" />
+		<completion string="tooltip" />
+		<completion string="treeheadercell" />
+		<completion string="treeheadersortarrow" />
+		<completion string="treeitem" />
+		<completion string="treetwisty" />
+		<completion string="treetwistyopen" />
+		<completion string="treeview" />
+		<completion string="window" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-appearance">
+		<completion string="button-bevel" />
+		<completion string="caret" />
+		<completion string="default-button" />
+		<completion string="media-fullscreen-button" />
+		<completion string="media-mute-button" />
+		<completion string="media-play-button" />
+		<completion string="media-seek-back-button" />
+		<completion string="media-seek-forward-button" />
+		<completion string="media-slider" />
+		<completion string="media-sliderthumb" />
+		<completion string="menulist-text" />
+		<completion string="searchfield" />
+		<completion string="searchfield-cancel-button" />
+		<completion string="searchfield-decoration" />
+		<completion string="searchfield-results-button" />
+		<completion string="searchfield-results-decoration" />
+		<completion string="slider-horizontal" />
+		<completion string="slider-vertical" />
+		<completion string="sliderthumb-horizontal" />
+		<completion string="sliderthumb-vertical" />
+		<completion string="square-button" />
+		<completion string="textarea" />
+		<completion string="scrollbargripper-horizontal" />
+		<completion string="scrollbargripper-vertical" />
+		<completion string="scrollbarthumb-horizontal" />
+		<completion string="scrollbarthumb-vertical" />
+	</set>
+
+
+	
 	<set name="de.minimalweb.css3.property.background">
 		<completion string="linear-gradient">
 		  <behavior>
@@ -56,6 +389,12 @@
 	  <completion string="round" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.background-size">
+	  <completion string="contain" />
+	  <completion string="cover" />
+	  <completion string="inherit" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.border-image-slice">
 		<completion string="fill" />
 	</set>
@@ -73,10 +412,24 @@
 		<completion string="repeat" />
 		<completion string="round" />
 		<completion string="space" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.box-decoration-break">
+		<completion string="clone" />
+		<completion string="slice" />
+		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.box-shadow">
 		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.box-sizing">
+		<completion string="content-box" />
+		<completion string="border-box" />
+		<completion string="inherit" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.column-rule">
@@ -216,6 +569,72 @@
 		<completion string="auto" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.nav-index">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-up">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-right">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-down">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.nav-left">
+		<completion string="auto" />
+		<completion string="current" />
+		<completion string="root" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-object-fit">
+		<completion string="cover" />
+		<completion string="contain" />
+		<completion string="fill" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-object-position">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.outline-offset">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.overflow-x">
+		<completion string="visible" />
+		<completion string="hidden" />
+		<completion string="scroll" />
+		<completion string="auto" />
+		<completion string="no-display" />
+		<completion string="no-content" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.overflow-y">
+		<completion string="visible" />
+		<completion string="hidden" />
+		<completion string="scroll" />
+		<completion string="auto" />
+		<completion string="no-display" />
+		<completion string="no-content" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.padding">
 		<completion string="auto" />
 	</set>
@@ -236,10 +655,358 @@
 		<completion string="auto" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.resize">
+		<completion string="none" />
+		<completion string="both" />
+		<completion string="horizontal" />
+		<completion string="vertical" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.text-overflow">
+		<completion string="clip" />
+		<completion string="ellipsis" />
+		<completion string="-o-ellipsis-lastline" />
+	</set>
+	
 	<set name="de.minimalweb.css3.property.text-rendering">
 		<completion string="optimizeLegibility" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.-moz-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-o-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.-webkit-transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.transition-property">
+		<completion string="none" />
+		<completion string="all" />
+	</set>
+	
+	<set name="de.minimalweb.css3.property.word-wrap">
+		<completion string="normal" />
+		<completion string="break-word" />	
+	</set>
+	
+	<!-- SVG specific values -->
+	
+	<set name="com.opera.css3.svg-property.alignment-baseline">
+		<completion string="auto" />
+		<completion string="baseline" />
+		<completion string="before-edge" />
+		<completion string="text-before-edge" />
+		<completion string="middle" />
+		<completion string="central" />
+		<completion string="after-edge" />
+		<completion string="text-after-edge" />
+		<completion string="ideographic" />
+		<completion string="alphabetic" />
+		<completion string="hanging" />
+		<completion string="mathematical" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.audio-level">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.baseline-shift">
+		<completion string="baseline" />
+		<completion string="sub" />
+		<completion string="super" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.buffered-rendering">
+		<completion string="auto" />
+		<completion string="dynamic" />
+		<completion string="static" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.clip">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.clip-path">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.clip-rule">
+		<completion string="nonzero" />
+		<completion string="evenodd" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.color-interpolation">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="linearRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.color-interpolation-filters">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="linearRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.color-profile">
+		<completion string="auto" />
+		<completion string="sRGB" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.color-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="optimizeQuality" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="com.opera.css3.svg-property.display-align">
+		<completion string="auto" />
+		<completion string="before" />
+		<completion string="center" />
+		<completion string="after" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.dominant-baseline">
+		<completion string="auto" />
+		<completion string="use-script" />
+		<completion string="no-change" />
+		<completion string="reset-size" />
+		<completion string="ideographic" />
+		<completion string="alphabetic" />
+		<completion string="hanging" />
+		<completion string="mathematical" />
+		<completion string="central" />
+		<completion string="middle" />
+		<completion string="text-after-edge" />
+		<completion string="text-before-edge" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.enable-background">
+		<completion string="accumulate" />
+		<completion string="new" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.fill">
+		<!--completion string="@color" /-->
+		<completion string="inherit" />
+	</set>	
+	
+	<set name="com.opera.css3.svg-property.fill-opacity">
+		<completion string="inherit" />
+	</set>	
+	
+	<set name="com.opera.css3.svg-property.fill-rule">
+		<completion string="nonzero" />
+		<completion string="evenodd" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.filter">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.flood-color">
+		<!--completion string="@color" /-->
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.flood-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.glyph-orientation-vertical">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.glyph-orientation-horizontal">
+		<completion string="inherit" />
+	</set>
+
+    <set name="com.opera.css3.svg-property.image-rendering">
+	 	<completion string="auto" />
+	 	<completion string="optimizeSpeed" />
+	 	<completion string="optimizeQuality" />
+	 	<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.kerning">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.lighting-color">
+		<!--completion string="@color" /-->
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.line-increment">
+		<completion string="auto" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="com.opera.css3.svg-property.marker">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+		<set name="com.opera.css3.svg-property.marker-end">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.marker-mid">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.marker-start">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+
+	<set name="com.opera.css3.svg-property.mask">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.pointer-events">
+		<completion string="visiblePainted" />
+		<completion string="visibleFill" />
+		<completion string="visibleStroke" />
+		<completion string="visible" />
+		<completion string="painted" />
+		<completion string="fill" />
+		<completion string="stroke" />
+		<completion string="all" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.shape-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="crispEdges" />
+		<completion string="geometricPrecision" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.solid-color">
+		<!--completion string="@color" /-->
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.solid-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stop-color">
+		<!--completion string="@color" /-->
+		<completion string="inherit" />
+	</set>
+	<set name="com.opera.css3.svg-property.stop-opacity">
+		<completion string="inherit" />
+	</set>
+	<set name="com.opera.css3.svg-property.stroke">
+		<completion string="inherit" />
+	</set>
+	<set name="com.opera.css3.svg-property.stroke-dasharray">
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-dashoffset">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-linecap">
+		<completion string="butt" />
+		<completion string="round" />
+		<completion string="square" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-linejoin">
+		<completion string="miter" />
+		<completion string="round" />
+		<completion string="bevel" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-miterlimit">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.stroke-width">
+		<completion string="inherit" />
+	</set>
+
+	<set name="com.opera.css3.svg-property.text-anchor">
+		<completion string="start" />
+		<completion string="middle" />
+		<completion string="end" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.text-rendering">
+		<completion string="auto" />
+		<completion string="optimizeSpeed" />
+		<completion string="optimizeLegibility" />
+		<completion string="geometricPrecision" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.vector-effect">
+		<completion string="non-scaling-stroke" />
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.viewport-fill">
+		<!--completion string="@color" /-->
+		<completion string="none" />
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.viewport-fill-opacity">
+		<completion string="inherit" />
+	</set>
+	
+	<set name="com.opera.css3.svg-property.writing-mode">
+		<completion string="lr-tb" />
+		<completion string="rl-tb" />
+		<completion string="tb-rl" />
+		<completion string="lr" />
+		<completion string="rl" />
+		<completion string="tb" />
+		<completion string="inherit" />
+	</set>	
+
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -271,6 +1038,7 @@
 		<completion string="border-bottom-right-radius" />
 		<completion string="border-bottom-left-radius" />
 		<completion string="border-top-left-radius" />
+		<completion string="box-decoration-break" />		
 		<completion string="box-shadow" />
 		<completion string="box-sizing" />
 		<completion string="column-count" />
@@ -278,8 +1046,89 @@
 		<completion string="column-rule" />
 		<completion string="column-span" />
 		<completion string="column-width" />
+		<completion string="nav-index" />
+		<completion string="nav-up" />
+		<completion string="nav-right" />
+		<completion string="nav-down" />
+		<completion string="nav-left" />
+		<completion string="outline-offset" />
+		<completion string="overflow-x" />
+		<completion string="overflow-y" />
+		<completion string="resize" />
+		<completion string="text-overflow" />
 		<completion string="text-shadow" />
 		<completion string="text-rendering" />
+		<completion string="transform" />
+		<completion string="transform-origin" />
+		<completion string="transition" />
+		<completion string="transition-delay" />
+		<completion string="transition-duration" />
+		<completion string="transition-property" />
+		<completion string="transition-timing-function" />
+		<completion string="word-wrap" />
+	</set>
+		
+	<set name="com.opera.css3.svg-properties">
+		<behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::: $0;)</transform-into>
+			</append-dynamic>
+			<confirm characters=":" />
+			<partial-confirm characters="-" />
+		</behavior>
+		
+		<completion string="alignment-baseline" />
+		<completion string="audio-level" />
+		<completion string="baseline-shift" />
+		<completion string="buffered-rendering" />
+		<completion string="clip" />
+		<completion string="clip-path" />
+		<completion string="clip-rule" />
+		<completion string="color-interpolation" />
+		<completion string="color-interpolation-filters" />
+		<completion string="color-profile" />
+		<completion string="color-rendering" />
+		<completion string="display-align" />
+		<completion string="dominant-baseline" />
+		<completion string="enable-background" />
+		<completion string="fill" />
+		<completion string="fill-opacity" />
+		<completion string="fill-rule" />
+		<completion string="filter" />
+		<completion string="flood-color" />
+		<completion string="flood-opacity" />
+		<completion string="glyph-orientation-horizontal" />
+		<completion string="glyph-orientation-vertical" />
+		<completion string="image-rendering" />
+		<completion string="kerning" />
+		<completion string="lighting-color" />
+		<completion string="line-increment" />
+		<completion string="marker" />
+		<completion string="marker-end" />
+		<completion string="marker-mid" />
+		<completion string="marker-start" />
+		<completion string="mask" />
+		<completion string="pointer-events" />
+		<completion string="shape-rendering" />
+		<completion string="solid-color" />
+		<completion string="solid-opacity" />
+		<completion string="stop-color" />
+		<completion string="stop-opacity" />
+		<completion string="stroke" />
+		<completion string="stroke-dasharray" />
+		<completion string="stroke-dashoffset" />
+		<completion string="stroke-linecap" />
+		<completion string="stroke-linejoin" />
+		<completion string="stroke-miterlimit" />
+		<completion string="stroke-opacity" />
+		<completion string="stroke-width" />
+		<completion string="text-anchor" />
+		<completion string="text-rendering" />
+		<completion string="vector-effect" />
+		<completion string="viewport-fill" />
+		<completion string="viewport-fill-opacity" />
+		<completion string="writing-mode" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.url-values">
@@ -305,7 +1154,7 @@
 			<partial-confirm characters="-" />
 		</behavior>
 		
-		<!-- Webkit -->
+		<!-- WebKit -->
 		<completion string="-webkit-animation" />
 		<completion string="-webkit-animation-direction" />
 		<completion string="-webkit-animation-duration" />
@@ -314,13 +1163,6 @@
 		<completion string="-webkit-animation-timing-function" />
 		<completion string="-webkit-appearance" />
 		<completion string="-webkit-background-clip" />
-		<completion string="-webkit-border-image" />
-		<completion string="-webkit-border-radius" />
-		<completion string="-webkit-border-top-left-radius" />
-		<completion string="-webkit-border-top-right-radius" />
-		<completion string="-webkit-border-bottom-left-radius" />
-		<completion string="-webkit-border-bottom-right-radius" />
-		<completion string="-webkit-box-shadow" />
 		<completion string="-webkit-box-sizing" />
 		<completion string="-webkit-column-count" />
 		<completion string="-webkit-column-gap" />
@@ -336,17 +1178,10 @@
 		<completion string="-webkit-transition-property" />
 		<completion string="-webkit-transition-duration" />
 		<completion string="-webkit-transition-timing-function" />
-		<completion string="-webkit-user-drag" />
-		<completion string="-webkit-user-modify" />
-		<completion string="-webkit-user-select" />
 		
 		<!-- Gecko -->
+		<completion string="-moz-appearance" />
 		<completion string="-moz-background-clip" />
-		<completion string="-moz-border-radius" />
-		<completion string="-moz-border-radius-topleft" />
-		<completion string="-moz-border-radius-topright" />
-		<completion string="-moz-border-radius-bottomleft" />
-		<completion string="-moz-border-radius-bottomright" />
 		<completion string="-moz-box-shadow" />
 		<completion string="-moz-box-sizing" />
 		<completion string="-moz-column-count" />
@@ -356,10 +1191,15 @@
 		<completion string="-moz-column-width" />
 		<completion string="-moz-transform" />
 		<completion string="-moz-transform-origin" />
-		<completion string="-moz-user-modify" />
-		<completion string="-moz-user-select" />
+		<completion string="-moz-transition" />
+		<completion string="-moz-transition-property" />
+		<completion string="-moz-transition-duration" />
+		<completion string="-moz-transition-timing-function" />
 		
 		<!-- Opera -->
+		<completion string="-o-border-image" />
+		<completion string="-o-object-fit" />	
+		<completion string="-o-object-position" />
 		<completion string="-o-transform" />
 		<completion string="-o-transform-origin" />
 		<completion string="-o-transition" />
@@ -374,7 +1214,7 @@
 	</set>
 	
 	<set name="de.minimalweb.css3.at-rules">
-  	<behavior>
+  	    <behavior>
 			<partial-confirm characters="-" />
 		</behavior>
 		<completion string="@charset" />
@@ -387,26 +1227,36 @@
 	</set>
 	
 	<set name="de.minimalweb.css3.classes.pseudo">
-  	<behavior>
+  	    <behavior>
 			<partial-confirm characters="-" />
 		</behavior>
 		<completion string=":active" />
 		<completion string=":after" />
 		<completion string=":before" />
 		<completion string=":checked" />
+		<completion string=":default" />
 		<completion string=":disabled" />
 		<completion string=":enabled" />
 		<completion string=":empty" />
+		<completion string=":first" />
 		<completion string=":first-child" />
 		<completion string=":first-line" />
 		<completion string=":first-letter" />
 		<completion string=":first-of-type" />
 		<completion string=":focus" />
 		<completion string=":hover" />
+		<completion string=":in-range" />		
 		<completion string=":indeterminate" />
+		<completion string=":invalid" />
+		<completion string=":lang">
+			<behavior>
+				<append-static>($1)</append-static>
+			</behavior>
+		</completion>
 		<completion string=":last-child" />
 		<completion string=":last-of-type" />
 		<completion string=":link" />
+		<completion string=":left" />
 		<completion string=":not">
 			<behavior>
 				<append-static>($1)</append-static>
@@ -434,8 +1284,15 @@
 		</completion>
 		<completion string=":only-child" />
 		<completion string=":only-of-type" />
+		<completion string=":optional" />
+		<completion string=":out-of-range" />
+		<completion string=":read-only" />
+		<completion string=":read-write" />
+		<completion string=":required" />
+		<completion string=":right" />
 		<completion string=":root" />
 		<completion string=":target" />
+		<completion string=":valid" />
 		<completion string=":visited" />
 	</set>
 	
@@ -449,5 +1306,9 @@
 		<completion string="::after" />
 		<completion string="::selection" />
 		<completion string="::-moz-selection" />
+		<completion string="::value" />
+		<completion string="::choices" />
+		<completion string="::repeat-item" />
+		<completion string="::repeat-index" />
 	</set>
 </codesense>
