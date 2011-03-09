@@ -236,6 +236,10 @@
 		<completion string="auto" />
 	</set>
 	
+	<set name="de.minimalweb.css3.property.text-rendering">
+		<completion string="optimizeLegibility" />
+	</set>
+	
 	<set name="de.minimalweb.css3.properties">
 		<behavior>
 			<append-dynamic>
@@ -275,6 +279,7 @@
 		<completion string="column-span" />
 		<completion string="column-width" />
 		<completion string="text-shadow" />
+		<completion string="text-rendering" />
 	</set>
 	
 	<set name="de.minimalweb.css3.property.url-values">
@@ -307,6 +312,7 @@
 		<completion string="-webkit-animation-iteration-count" />
 		<completion string="-webkit-animation-name" />
 		<completion string="-webkit-animation-timing-function" />
+		<completion string="-webkit-appearance" />
 		<completion string="-webkit-background-clip" />
 		<completion string="-webkit-border-image" />
 		<completion string="-webkit-border-radius" />
@@ -323,6 +329,7 @@
 		<completion string="-webkit-column-width" />
 		<completion string="-webkit-mask-image" />
 		<completion string="-webkit-tap-highlight-color" />
+		<completion string="-webkit-text-size-adjust" />
 		<completion string="-webkit-transform" />
 		<completion string="-webkit-transform-origin" />
 		<completion string="-webkit-transition" />
