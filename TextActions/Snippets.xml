@@ -31,4 +31,31 @@ ${EDITOR_SELECTION:$2}
 		<syntax-context>css</syntax-context>
 	</snippet>
 	
+	<snippet id="de.minimalweb.TextActions.CSS3.RoundedCorners" category="tools.Snippets">
+		<title>Rounded Corners</title>
+		<text><![CDATA[-webkit-border-radius: $1;
+-moz-border-radius: $1;
+border-radius: $1;]]></text>
+		<text-trigger>br</text-trigger>
+		<syntax-context>css</syntax-context>
+	</snippet>
+	
+	<snippet id="de.minimalweb.TextActions.CSS3.RoundedCorners" category="tools.Snippets">
+		<title>Rounded Corners extended</title>
+		<text><![CDATA[-webkit-border-top-left-radius: $1;
+-webkit-border-top-right-radius: $2;
+-webkit-border-bottom-right-radius: $3;
+-webkit-border-bottom-left-radius: $4;
+-moz-border-radius-topleft: $1;
+-moz-border-radius-topright: $2;
+-moz-border-radius-bottomright: $3;
+-moz-border-radius-bottomleft: $4;
+border-top-left-radius: $1;
+border-top-right-radius: $2;
+border-bottom-right-radius: $3;
+border-bottom-left-radius: $4;]]></text>
+		<text-trigger>brx</text-trigger>
+		<syntax-context>css</syntax-context>
+	</snippet>
+	
 </action-recipes>
