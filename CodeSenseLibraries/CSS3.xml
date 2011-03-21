@@ -1052,8 +1052,6 @@
 		<completion string="overflow-y" />
 		<completion string="resize" />
 		<completion string="text-overflow" />
-		<completion string="text-shadow" />
-		<completion string="text-rendering" />
 		<completion string="transform" />
 		<completion string="transform-origin" />
 		<completion string="transition" />
