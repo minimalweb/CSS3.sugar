@@ -1206,7 +1206,6 @@
 		<completion string="-ms-box-sizing" />
 		<completion string="-ms-filter" />
 		<completion string="-ms-interpolation-mode" />
-		<completion string="filter" />
 	</set>
 	
 	<set name="de.minimalweb.css3.at-rules">
