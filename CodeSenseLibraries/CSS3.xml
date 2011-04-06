@@ -1113,12 +1113,14 @@
 		<completion string="linear-gradient" />
 		<completion string="-moz-linear-gradient" />
 		<completion string="-webkit-linear-gradient" />
+		<completion string="-o-linear-gradient" />
 		<completion string="radial-gradient" />
 		<completion string="-moz-radial-gradient" />
 		<completion string="-webkit-radial-gradient" />
 		<completion string="repeating-linear-gradient" />
 		<completion string="-moz-repeating-linear-gradient" />
 		<completion string="-webkit-repeating-linear-gradient" />
+		<completion string="-o-repeating-linear-gradient" />
 		<completion string="radial-repeating-gradient" />
 		<completion string="-moz-repeating-radial-gradient" />
 		<completion string="-webkit-repeating-radial-gradient" />
