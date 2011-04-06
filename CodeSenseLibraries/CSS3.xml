@@ -345,40 +345,6 @@
 		<completion string="scrollbarthumb-horizontal" />
 		<completion string="scrollbarthumb-vertical" />
 	</set>
-
-
-	
-	<set name="de.minimalweb.css3.property.background">
-		<completion string="linear-gradient">
-		  <behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1::(${1:bg-position angle}, ${2:color-stop}, ${3:color-stop})$4)</transform-into>
-				</append-dynamic>
-				<partial-confirm characters="-" />
-		  </behavior>
-		</completion>
-		<completion string="radial-gradient" />
-		<completion string="-moz-linear-gradient">
-		  <behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1::(${1:bg-position angle}, ${2:color-stop}, ${3:color-stop})$4)</transform-into>
-				</append-dynamic>
-				<partial-confirm characters="-" />
-		  </behavior>
-		</completion>
-		<completion string="-moz-radial-gradient" />
-		<completion string="-webkit-gradient">
-		  <behavior>
-				<append-dynamic>
-					<matched-suffix>(\s*:)|[^:]</matched-suffix>
-					<transform-into>(?1::(${1:type}, ${2:bg-position angle}, from(${3:color}), to(${4:color})${5:color-stop(${6:position}, ${7:color})})$8)</transform-into>
-				</append-dynamic>
-				<partial-confirm characters="-" />
-		  </behavior>
-		</completion>
-	</set>
 	
 	<set name="de.minimalweb.css3.property.background-attachment">
 	  <completion string="local" />
@@ -1134,6 +1100,30 @@
 				</append-dynamic>
 		  </behavior>
 		</completion>
+	</set>
+	
+	<set name="de.minimalweb.css3.gradient-values">
+	  <behavior>
+			<append-dynamic>
+				<matched-suffix>(\s*:)|[^:]</matched-suffix>
+				<transform-into>(?1::($1)$2)</transform-into>
+			</append-dynamic>
+			<partial-confirm characters="-" />
+	  </behavior>
+		<completion string="linear-gradient" />
+		<completion string="-moz-linear-gradient" />
+		<completion string="-webkit-linear-gradient" />
+		<completion string="radial-gradient" />
+		<completion string="-moz-radial-gradient" />
+		<completion string="-webkit-radial-gradient" />
+		<completion string="repeating-linear-gradient" />
+		<completion string="-moz-repeating-linear-gradient" />
+		<completion string="-webkit-repeating-linear-gradient" />
+		<completion string="radial-repeating-gradient" />
+		<completion string="-moz-repeating-radial-gradient" />
+		<completion string="-webkit-repeating-radial-gradient" />
+		<!-- legacy support for webkit -->
+		<completion string="-webkit-gradient" />
 	</set>
 	
 	<!-- Browser-Specific Properties -->

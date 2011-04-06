@@ -14,6 +14,14 @@ CodeSense Providers map contexts in a document to possible completions. The actu
 		<complete-match>[a-zA-Z0-9-]*</complete-match>
 		<require-suffix>[^:]|</require-suffix>
 	</provider>
+
+	<!-- CSS gradient values -->
+	<provider>
+		<selector>css > property-name[text='background'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background'] + property-value > punctuation.terminator, css > property-name[text='background-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='background-image'] + property-value > punctuation.terminator, css > property-name[text='border-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='border-image'] + property-value > punctuation.terminator, css > property-name[text='list-style-image'] + property-value - punctuation.separator + *:not(container.support.function.misc.css), css > property-name[text='list-style-image'] + property-value > punctuation.terminator</selector>
+		<completions>de.minimalweb.css3.gradient-values</completions>
+		<complete-match>[a-zA-Z0-9-]*</complete-match>
+		<require-suffix>[^:]|</require-suffix>
+	</provider>
 	
 	<!-- appearance values -->
 	<provider>
